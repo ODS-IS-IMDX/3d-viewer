@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  api:
+    container_name: ehv-api
+    platform: linux/x86_64
+    build: .
+    ports:
+      - 3001:3000
+    environment:
+      - EHV_IS_DOCKER_CONTAINER=false
+      - EHV_CORE_DB_ADAPTER=${EHV_CORE_DB_ADAPTER:-cloud}
+      - EHV_CORE_SERVER_HOST=0.0.0.0
+      - EHV_CORE_SERVER_PORT=3000
+      - EHV_CORE_SERVER_PUBLIC_URL=http://localhost:3000
+      - FASTIFY_LOG_LEVEL=debug
+      - FASTIFY_WATCH=true
+      - FASTIFY_IGNORE_WATCH='node_modules build dist .git .idea bower_components logs __data_json__ __data_json_test__'
+    external_links:
+      - ehv-db:mysql
+    networks:
+      - backend-net
+    volumes:
+      - ./app:/usr/app/app
+      - ./config:/usr/app/config
+      - ./data:/usr/app/data
+      - ./fixtures:/usr/app/fixtures
+      - ./lib:/usr/app/lib
+      - ./migrations:/usr/app/migrations
+      - ./scripts:/usr/app/scripts
+      - ./.env:/usr/app/.env
+      - ./.env.test:/usr/app/.env.test
+networks:
+  backend-net:
+      name: ehv-backend-net

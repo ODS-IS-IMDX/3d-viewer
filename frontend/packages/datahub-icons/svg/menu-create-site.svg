@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        opacity: 0.58;
+      }
+
+      .cls-2 {
+        fill: #3a4248;
+        stroke: #fff;
+        stroke-width: 0.35px;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: #16abe3;
+      }
+    </style>
+  </defs>
+  <g id="menu-create-site" transform="translate(-679 -1703)">
+    <rect id="Rectangle_11290" data-name="Rectangle 11290" class="cls-1" width="40" height="40" transform="translate(679 1703)"/>
+    <g id="menu-create-site-2" data-name="menu-create-site" transform="translate(698.998 1722.73)">
+      <g id="Group_1440" data-name="Group 1440" transform="translate(-7.998 -11.731)">
+        <path id="Path_874" data-name="Path 874" class="cls-2" d="M14.392,10.163a11.451,11.451,0,0,1-1.206,2.624c-.228.383-3.627,6.171-5.081,8.649L2.691,11.908l-.035-.064a7.368,7.368,0,0,1-.627-1.392,7.7,7.7,0,0,1-.38-2.344A6.47,6.47,0,0,1,8.111,1.647a6.654,6.654,0,0,1,6.564,5.871A7.548,7.548,0,0,1,14.392,10.163ZM8.111.175A7.946,7.946,0,0,0,.175,8.108a9.115,9.115,0,0,0,.45,2.782,8.782,8.782,0,0,0,.75,1.676l.034.058,6.046,10.64a.737.737,0,0,0,1.275.01c.055-.093,5.437-9.257,5.707-9.708a12.873,12.873,0,0,0,1.382-3.036,9,9,0,0,0,.326-3.163A8.036,8.036,0,0,0,8.111.175Z" transform="translate(-0.175 -0.175)"/>
+        <g id="Ellipse_133" data-name="Ellipse 133" transform="translate(-0.175 -0.175)">
+          <circle id="Ellipse_977" data-name="Ellipse 977" class="cls-3" cx="3.071" cy="3.071" r="3.071" transform="translate(4.884 5.86)"/>
+          <circle id="Ellipse_978" data-name="Ellipse 978" class="cls-4" cx="2.571" cy="2.571" r="2.571" transform="translate(5.384 6.36)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

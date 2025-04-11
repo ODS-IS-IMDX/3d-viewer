@@ -1,0 +1,9 @@
+{
+  "extends": ["standard", "prettier", "prettier/standard"],
+  "env": {
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  }
+}

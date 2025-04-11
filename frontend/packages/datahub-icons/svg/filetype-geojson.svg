@@ -1,0 +1,11 @@
+<svg id="filetype_geo" data-name="filetype geo" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="Rectangle_14009" data-name="Rectangle 14009" width="40" height="40" fill="none"/>
+  <g id="Group_20583" data-name="Group 20583" transform="translate(-264.704 -113)">
+    <g id="Path_2638" data-name="Path 2638" transform="translate(267.704 116)" fill="#fff">
+      <path d="M 21.20367622375488 31.5 L 2.499997138977051 31.5 L 2.499997138977051 2.5 L 14.0719575881958 2.5 L 21.20367622375488 11.84127902984619 L 21.20367622375488 31.5 Z" stroke="none"/>
+      <path d="M 4.999998092651367 5 L 4.999998092651367 29 L 18.70367813110352 29 L 18.70367813110352 12.6865062713623 L 12.8353157043457 5 L 4.999998092651367 5 M -1.9073486328125e-06 0 L 15.30861759185791 0 L 23.70367622375488 10.99603080749512 L 23.70367622375488 34 L -1.9073486328125e-06 34 L -1.9073486328125e-06 0 Z" stroke="none" fill="#ecf0f3"/>
+    </g>
+    <rect id="Rectangle_12606" data-name="Rectangle 12606" width="24" height="13" rx="2" transform="translate(277.704 130)" fill="#606770"/>
+    <text id="GEO" transform="translate(289.704 140.5)" fill="#fff" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-10.637" y="0">GEO</tspan></text>
+  </g>
+</svg>

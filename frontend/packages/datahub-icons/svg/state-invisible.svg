@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1,.cls-3,.cls-4{fill:none}.cls-2{fill:#8e96a0}.cls-3{stroke:#fff;stroke-width:3px}.cls-4{stroke:#8e96a0}
+        </style>
+    </defs>
+    <g id="action_make_invisible" data-name="action make invisible" transform="translate(-435 -340)">
+        <path id="Rectangle_5969" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 5969" transform="translate(435 340)"/>
+        <path id="Path_7226" d="M9 0c4.971 0 9 5 9 5s-4.029 5-9 5-9-5-9-5 4.029-5 9-5z" class="cls-2" data-name="Path 7226" transform="translate(446 355)"/>
+        <path id="Path_7227" d="M0 13L13 0" class="cls-3" data-name="Path 7227" transform="translate(448.5 353.5)"/>
+        <path id="Line_1369" d="M0 13L13 0" class="cls-4" data-name="Line 1369" transform="translate(448.5 353.5)"/>
+    </g>
+</svg>

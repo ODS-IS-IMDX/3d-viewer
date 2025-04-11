@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #8e96a0;
+      }
+
+      .cls-3 {
+        fill: #8e96a0;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="family_organisation" data-name="family organisation" transform="translate(-1106 -998)">
+    <rect id="Rectangle_12388" data-name="Rectangle 12388" class="cls-1" width="40" height="40" transform="translate(1106 998)"/>
+    <g id="Group_9425" data-name="Group 9425" transform="translate(1101 890)">
+      <g id="Rectangle_12375" data-name="Rectangle 12375" class="cls-2" transform="translate(22 117)">
+        <rect class="cls-4" width="14" height="22" rx="1"/>
+        <rect class="cls-1" x="0.5" y="0.5" width="13" height="21" rx="0.5"/>
+      </g>
+      <path id="Subtraction_19" data-name="Subtraction 19" class="cls-3" d="M-525-1942h-7a1,1,0,0,1-1-1v-12a1,1,0,0,1,1-1h7a1,1,0,0,1,1,1v12A1,1,0,0,1-525-1942Zm-2-4v2h2v-2Zm-4,0v2h2v-2Zm4-4v2h2v-2Zm-4,0v2h2v-2Zm4-4v2h2v-2Zm-4,0v2h2v-2Z" transform="translate(547 2079)"/>
+      <rect id="Rectangle_12377" data-name="Rectangle 12377" class="cls-3" width="3" height="2" transform="translate(25 120)"/>
+      <rect id="Rectangle_12387" data-name="Rectangle 12387" class="cls-3" width="3" height="2" transform="translate(30 120)"/>
+      <rect id="Rectangle_12380" data-name="Rectangle 12380" class="cls-3" width="3" height="2" transform="translate(25 124)"/>
+      <rect id="Rectangle_12386" data-name="Rectangle 12386" class="cls-3" width="3" height="2" transform="translate(30 124)"/>
+      <rect id="Rectangle_12382" data-name="Rectangle 12382" class="cls-3" width="3" height="2" transform="translate(25 128)"/>
+      <rect id="Rectangle_12385" data-name="Rectangle 12385" class="cls-3" width="3" height="2" transform="translate(30 128)"/>
+      <rect id="Rectangle_12383" data-name="Rectangle 12383" class="cls-3" width="3" height="2" transform="translate(25 132)"/>
+      <rect id="Rectangle_12384" data-name="Rectangle 12384" class="cls-3" width="3" height="2" transform="translate(30 132)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+// Copyright (c) 2025 NTT InfraNet
+export const mapPointRecord = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<style>
+.cls-1{fill:#566adf}
+</style>
+</defs>
+<path style="fill:rgba(0, 0, 0, 0.004)" d="M0 0h100v100H0z"/>
+<rect class="cls-1" x="20" y="29.17" width="8.33" height="8.33" rx="1" ry="1"/>
+<rect class="cls-1" x="33.33" y="29.17" width="33.33" height="8.33" rx="1" ry="1"/>
+<rect class="cls-1" x="20" y="45.83" width="8.33" height="8.33" rx="1" ry="1"/>
+<rect class="cls-1" x="20" y="62.5" width="8.33" height="8.33" rx="1" ry="1"/>
+<path class="cls-1" d="M65.97 45.89c-.1-.03-.2-.06-.3-.06H34.34c-.55 0-1 .45-1 1v6.33c0 .55.45 1 1 1H61.2l4.78-8.27ZM56.38 62.5H34.33c-.55 0-1 .45-1 1v6.33c0 .55.45 1 1 1h17.24l4.81-8.33Z"/>
+<path class="cls-1" d="M48.08 79.17H14.17V20.83H72.5v13.75l5.83-10.1V13.33c0-2.76-2.24-5-5-5h-60c-2.76 0-5 2.24-5 5v73.34c0 2.76 2.24 5 5 5h34.04l.72-12.5ZM69.18 87c-.39.67-.92 1.24-1.56 1.66l-4.52 3h10.24c2.76 0 5-2.24 5-5V71.14L69.18 87Z"/>
+<rect class="cls-1" x="70.62" y="19" width="10.04" height="66.93" rx="2" ry="2" transform="rotate(30 75.64 52.472)"/>
+<path class="cls-1" d="m53.67 92.27 7.14-4.12a.996.996 0 0 0 0-1.73l-7.14-4.12c-.67-.38-1.5.1-1.5.87v8.25c0 .77.83 1.25 1.5.87Z"/>
+</svg>
+`

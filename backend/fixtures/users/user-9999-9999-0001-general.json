@@ -1,0 +1,11 @@
+{
+    "iss": "https://cognito-idp.ap-northeast-1.amazonaws.com",
+    "sub": "user-9999-9999-0001-general",
+    "custom:infra_company_id": "9000000000001-01",
+    "email": "general@example.com",
+    "iat": 1555195955,
+    "exp": 1800000000,
+    "azp": "Dm2utgbLpVFvk9HPX1NHJX5Ll3jPcZMK",
+    "scope": "openid profile email address phone offline_access",
+    "gty": "password"
+}

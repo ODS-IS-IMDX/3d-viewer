@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#8e96a0}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="family_surface" class="cls-2" data-name="family surface">
+        <path id="Rectangle_14951" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 14951"/>
+        <g id="Group_21343" data-name="Group 21343" transform="translate(12 14)">
+            <path id="Path_8089" d="M15.58 3.5h-1.01l.25 1.5h1.01z" class="cls-3" data-name="Path 8089"/>
+            <path id="Path_8090" d="M2.76 1.5l.09-.5h11.3l.09.5h1.01L15 0H2l-.25 1.5z" class="cls-3" data-name="Path 8090"/>
+            <path id="Path_8091" d="M1.17 5h1.01l.25-1.5H1.42z" class="cls-3" data-name="Path 8091"/>
+            <path id="Path_8092" d="M14.99 6l.83 5H1.18l.83-5H1l-1 6h17l-1-6z" class="cls-3" data-name="Path 8092"/>
+        </g>
+    </g>
+</svg>

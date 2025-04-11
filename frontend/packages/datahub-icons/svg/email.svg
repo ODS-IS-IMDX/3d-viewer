@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #3a4248;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="gamily_contact_us" data-name="gamily contact us" transform="translate(-1032 -1071)">
+    <rect id="Rectangle_13654" data-name="Rectangle 13654" class="cls-1" width="40" height="40" transform="translate(1032 1071)"/>
+    <g id="Group_20642" data-name="Group 20642" transform="translate(-1 -1)">
+      <g id="Rectangle_14088" data-name="Rectangle 14088" class="cls-2" transform="translate(1044 1086)">
+        <rect class="cls-4" width="17.426" height="11.98"/>
+        <rect class="cls-1" x="0.5" y="0.5" width="16.426" height="10.98"/>
+      </g>
+      <path id="Path_7322" data-name="Path 7322" class="cls-3" d="M-3980.407,1760.774l8.392,6.4,7.679-6.4" transform="translate(5024.952 -673.685)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.531" height="51.73" viewBox="0 0 45.531 51.73">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: #16abe3;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="instruction-polyline-blue" transform="translate(-309 -2233)">
+    <g id="Symbol_234_21" data-name="Symbol 234 – 21" transform="translate(-127 119)">
+      <rect id="Rectangle_6757" data-name="Rectangle 6757" class="cls-1" width="44" height="44" rx="4" transform="translate(436 2114)"/>
+      <path id="Path_3506" data-name="Path 3506" class="cls-2" d="M324.979,725.486l-6.345-7.973-3.783,4.293-3.867-16.724,17.757,6.365-6.346,2.851,6.559,7.287Z" transform="translate(291.984 1389.634) rotate(11)"/>
+    </g>
+    <g id="Group_8802" data-name="Group 8802" transform="translate(66)">
+      <g id="Group_8796" data-name="Group 8796" transform="translate(116)">
+        <path id="Path_3554" data-name="Path 3554" class="cls-3" d="M0,14,3.8,1l12.232-3.93" transform="translate(140.5 2247.5)"/>
+        <rect id="Rectangle_11256" data-name="Rectangle 11256" class="cls-4" width="5" height="5" transform="translate(154 2242.5)"/>
+        <rect id="Rectangle_11257" data-name="Rectangle 11257" class="cls-4" width="5" height="5" transform="translate(142 2246)"/>
+        <rect id="Rectangle_11258" data-name="Rectangle 11258" class="cls-4" width="5" height="5" transform="translate(138 2259)"/>
+      </g>
+    </g>
+  </g>
+</svg>

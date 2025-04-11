@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="bt_add" data-name="bt add" transform="translate(-232 -61)">
+        <path id="Rectangle_8852" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 8852" transform="translate(232 61)"/>
+        <path id="Union_79" d="M11374 5912v-7h-7v-2h7v-7h2v7h7v2h-7v7z" class="cls-2" data-name="Union 79" transform="translate(-11123 -5823)"/>
+    </g>
+</svg>

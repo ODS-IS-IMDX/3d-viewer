@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{fill:#8e96a0}.cls-3{stroke:#8e96a0;stroke-width:1.5px}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="input_checkbox_locked" data-name="input checkbox locked" transform="translate(-559 -2947)">
+        <path id="Rectangle_13988" d="M0 0h16v16H0z" class="cls-1" data-name="Rectangle 13988" transform="translate(559 2947)"/>
+        <g id="Group_20539" data-name="Group 20539" transform="translate(0 -.5)">
+            <path id="Rectangle_13986" d="M1 0h6a1 1 0 0 1 1 1v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V1a1 1 0 0 1 1-1z" class="cls-2" data-name="Rectangle 13986" transform="translate(563 2954)"/>
+            <g id="Rectangle_13987" class="cls-3" data-name="Rectangle 13987">
+                <path d="M0 0h6v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V0z" class="cls-4" transform="rotate(180 285 1477.75)"/>
+                <path d="M1.5.75h3a.75.75 0 0 1 .75.75V4A1.25 1.25 0 0 1 4 5.25H2A1.25 1.25 0 0 1 .75 4V1.5A.75.75 0 0 1 1.5.75z" class="cls-1" transform="rotate(180 285 1477.75)"/>
+            </g>
+        </g>
+    </g>
+</svg>

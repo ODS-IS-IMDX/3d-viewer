@@ -1,0 +1,56 @@
+services:
+  dev: 
+    platform: linux/x86_64
+    build:
+      context: .
+      dockerfile: ./Dockerfile.dev
+    volumes:
+      - .:/opt/workspace:cached # bind mount してホットリロード有効化
+      # named volume にして bind mount を回避
+      - install-packages:/opt/workspace/install-packages
+      - node_modules_root:/opt/workspace/node_modules
+      - node_modules_component:/opt/workspace/packages/datahub-components/node_modules
+      - node_modules_icons:/opt/workspace/packages/datahub-icons/node_modules
+      - node_modules_router:/opt/workspace/packages/datahub-router/node_modules
+      - node_modules_viewer:/opt/workspace/packages/datahub-viewer/node_modules
+      - node_modules_design_systems:/opt/workspace/packages/design-system/node_modules
+      - node_modules_react-plugins:/opt/workspace/packages/react-plugins/node_modules
+      - node_modules_react-slots:/opt/workspace/packages/react-slots/node_modules
+      - dist_component:/opt/workspace/packages/datahub-components/dist
+      - dist_icons:/opt/workspace/packages/datahub-icons/dist
+      - dist_router:/opt/workspace/packages/datahub-router/dist
+      - dist_design_systems:/opt/workspace/packages/design-system/dist
+      - dist_react-plugins:/opt/workspace/packages/react-plugins/dist
+      - dist_react-slots:/opt/workspace/packages/react-slots/dist
+      - flow-typed_component:/opt/workspace/packages/datahub-components/flow-typed
+      - flow-typed_router:/opt/workspace/packages/datahub-router/flow-typed
+      - flow-typed_viewer:/opt/workspace/packages/datahub-viewer/flow-typed
+      - flow-typed_design_systems:/opt/workspace/packages/design-system/flow-typed
+      - flow-typed_react-slots:/opt/workspace/packages/react-slots/flow-typed
+    working_dir: /opt/workspace
+    tty: true
+    ports:
+      - 3000:3000
+      - 6006:6006
+    command: /bin/sh -c "npm run dev --unsafe-perm"
+volumes:
+  install-packages:
+  node_modules_root:
+  node_modules_component:
+  node_modules_icons:
+  node_modules_router:
+  node_modules_viewer:
+  node_modules_design_systems:
+  node_modules_react-plugins:
+  node_modules_react-slots:
+  dist_component:
+  dist_icons:
+  dist_router:
+  dist_design_systems:
+  dist_react-plugins:
+  dist_react-slots:
+  flow-typed_component:
+  flow-typed_router:
+  flow-typed_viewer:
+  flow-typed_design_systems:
+  flow-typed_react-slots:

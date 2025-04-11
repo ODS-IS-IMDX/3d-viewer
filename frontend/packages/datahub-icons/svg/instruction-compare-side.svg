@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #16abe3;
+      }
+
+      .cls-10, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-10, .cls-9 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11251" data-name="Rectangle 11251" class="cls-1" width="44" height="44" rx="4" transform="translate(303 2233)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_9295" data-name="Rectangle 9295" class="cls-2" width="13" height="24" transform="translate(-7702 -10002)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_3569" data-name="Path 3569" class="cls-2" d="M0,0H13V17.218L0,10Z"/>
+    </clipPath>
+  </defs>
+  <g id="instruction-compare-side" transform="translate(-189 -2051)">
+    <g id="Symbol_247_10" data-name="Symbol 247 – 10" transform="translate(-117 -182)">
+      <g id="Mask_Group_124" data-name="Mask Group 124" class="cls-3" transform="translate(3)">
+        <g id="Symbol_234_17" data-name="Symbol 234 – 17" transform="translate(-133 119)">
+          <rect id="Rectangle_6757" data-name="Rectangle 6757" class="cls-1" width="44" height="44" rx="4" transform="translate(436 2114)"/>
+          <path id="Path_3506" data-name="Path 3506" class="cls-4" d="M324.979,725.486l-6.345-7.973-3.783,4.293-3.867-16.724,17.757,6.365-6.346,2.851,6.559,7.287Z" transform="translate(291.984 1389.634) rotate(11)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_8816" data-name="Group 8816" transform="translate(-4 41)">
+      <line id="Line_1333" data-name="Line 1333" class="cls-5" y1="9.862" transform="translate(214.5 2020)"/>
+      <line id="Line_1335" data-name="Line 1335" class="cls-5" y1="9.862" transform="translate(214.5 2036.138)"/>
+      <line id="Line_1334" data-name="Line 1334" class="cls-5" y1="2.69" transform="translate(214.5 2031.655)"/>
+      <g id="Mask_Group_102" data-name="Mask Group 102" class="cls-6" transform="translate(7901 12022)">
+        <g id="Path_3350" data-name="Path 3350" class="cls-7" transform="translate(-7698.279 -9996.192)">
+          <path class="cls-9" d="M0,0H14V14H0Z"/>
+          <path class="cls-10" d="M 2 2 L 2 12 L 12 12 L 12 2 L 2 2 M 0 0 L 14 0 L 14 14 L 0 14 L 0 0 Z"/>
+        </g>
+      </g>
+      <g id="Mask_Group_125" data-name="Mask Group 125" class="cls-8" transform="translate(217 2020)">
+        <g id="Path_3351" data-name="Path 3351" class="cls-7" transform="translate(-4.721 5.808)">
+          <path class="cls-9" d="M0,0H14V14H0Z"/>
+          <path class="cls-10" d="M 2 2 L 2 12 L 12 12 L 12 2 L 2 2 M 0 0 L 14 0 L 14 14 L 0 14 L 0 0 Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2,.cls-4{fill:#606770}.cls-2{opacity:.25}.cls-3,.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Ico_date" data-name="Ico date" transform="translate(-4 -155)">
+        <path id="Path_2664" d="M0 0h40v40H0z" class="cls-1" data-name="Path 2664" transform="translate(4 155)"/>
+        <g id="Union_36" class="cls-2" data-name="Union 36">
+            <path d="M19610.498 10599.5h-.998v-.999h.998v.999zm-2.998 0h-.998v-.999h.998v.999zm-2.998 0h-1.004v-.999h1.004v.999zm5.996-2.998h-.998v-1.003h.998v1.003zm-2.998 0h-.998v-1.003h.998v1.003zm-2.998 0h-1.004v-1.003h1.004v1.003zm8.998-4.002h-12.998v-1.998h12.998v1.998z" class="cls-3" transform="translate(-19583.002 -10421.002)"/>
+            <path d="M19613 10592v-.998h-11.998v.998H19613m1 10.998h-13.998V10590.002H19614v12.996zm-13-9.998v8.998h12.002V10593H19601zm9.998 7H19609v-1.999h1.998v1.999zm-2.998 0h-1.998v-1.999h1.998v1.999zm-2.998 0h-2.004v-1.999h2.004v1.999zm5.996-2.998H19609v-2.003h1.998v2.003zm-2.998 0h-1.998v-2.003h1.998v2.003zm-2.998 0h-2.004v-2.003h2.004v2.003z" class="cls-4" transform="translate(-19583.002 -10421.002)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "name": "@ehv/react-plugins",
+  "version": "0.0.1",
+  "description": "Plugin architecture for React apps",
+  "author": "@diffcunha",
+  "main": "dist/react-plugins.cjs.js",
+  "module": "dist/react-plugins.esm.js",
+  "scripts": {
+    "clean": "rm -rf ./dist ./node_modules",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@ehv/react-slots": "file:../react-slots",
+    "react": "^16.14.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0",
+    "reselect": "*",
+    "@reach/router": "*",
+    "@ehv/react-slots": "*"
+  }
+}

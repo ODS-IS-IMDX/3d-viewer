@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#16abe3}
+        </style>
+    </defs>
+    <g id="brand_logo_picto" data-name="brand logo picto" transform="translate(-7 -6)">
+        <path id="Rectangle_5885" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 5885" transform="translate(7 6)"/>
+        <g id="Group_6515" data-name="Group 6515" transform="translate(17 17)">
+            <g id="Group_13" data-name="Group 13">
+                <g id="Group_12" data-name="Group 12">
+                    <path id="Path_2" d="M14.25 8.285a.265.265 0 0 0 .085-.171L13.054.342a.184.184 0 0 0-.171-.171A12.837 12.837 0 0 0 11.175 0a8.287 8.287 0 0 0-1.452.085.184.184 0 0 0-.171.171L8.1 8.029c0 .085 0 .256.171.256a9.636 9.636 0 0 0 3.246.683 5.272 5.272 0 0 0 2.648-.6.084.084 0 0 0 .085-.083z" class="cls-2" data-name="Path 2" transform="translate(-1.181)"/>
+                    <g id="Group_11" data-name="Group 11" transform="translate(0 9.139)">
+                        <path id="Path_3" d="M21.71 15.91l-5.979-5.125c-.085 0-.085-.085-.171-.085s-.085 0-.171.085-2.9 2.135-2.989 5.125v.171a.184.184 0 0 0 .171.171l7.346 2.733H20c.085 0 .171 0 .171-.085a8.268 8.268 0 0 0 1.537-2.648c.173-.171.092-.252.002-.342z" class="cls-2" data-name="Path 3" transform="translate(-1.809 -10.7)"/>
+                        <path id="Path_4" d="M6.406 10.785c-.085 0-.085-.085-.171-.085s-.085 0-.171.085L.085 15.91a.314.314 0 0 0-.085.256 10.224 10.224 0 0 0 1.537 2.648c.085.085.085.085.171.085h.085l7.346-2.733c.085 0 .085-.085.171-.171v-.171c0-2.989-2.819-4.953-2.904-5.039z" class="cls-2" data-name="Path 4" transform="translate(0 -10.7)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

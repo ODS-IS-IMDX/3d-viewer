@@ -1,0 +1,15 @@
+[ignore]
+./dist/.*
+./.storybook/.*
+
+[include]
+
+[libs]
+./type-def-libs
+
+[lints]
+
+[options]
+server.max_workers=1
+
+[strict]

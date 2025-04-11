@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="action_display_multi_ortho" width="40" height="40" data-name="action display multi ortho" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#3a4248}
+        </style>
+    </defs>
+    <path id="Rectangle_15170" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 15170"/>
+    <path id="Union_239" d="M6030.095-955.639l-2.1-13h22l-2.1 13zm1.8-2h14.215l1.451-9h-17.116zm7.754-11.965l2.039-2.03H6047v2.03zm-8.647 0v-2.03h5.314l2.039 2.03zm7.3-1.49l-3.536-3.536 1.414-1.414 1.7 1.7V-979h2v4.915l1.958-1.957 1.414 1.414-4.245 4.241z" class="cls-2" data-name="Union 239" transform="translate(-6019 987)"/>
+</svg>

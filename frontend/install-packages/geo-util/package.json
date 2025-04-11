@@ -1,0 +1,31 @@
+{
+  "name": "@ehv/geo-util",
+  "version": "1.1.8",
+  "description": "coordinates & projections utility",
+  "main": "index.js",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "debug": "^4.1.1",
+    "proj4": "^2.5.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "husky": "^1.3.1",
+    "jsdoc-to-markdown": "^4.0.1",
+    "lab-markdown-reporter": "^1.0.2",
+    "lint-staged": "^8.1.4",
+    "prettier-standard": "^9.1.1",
+    "standard": "*"
+  },
+  "license": "ISC",
+  "lint-staged": {
+    "*.js": [
+      "prettier-standard",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "document": "jsdoc2md -f 'lib/**/*.js' > doc/API.md",
+    "precommit": "lint-staged"
+  }
+}

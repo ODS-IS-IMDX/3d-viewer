@@ -1,0 +1,76 @@
+// Copyright (c) 2025 NTT InfraNet
+// @flow
+import React from 'react'
+import { ShadowMode } from 'cesium'
+import { Entity, ViewerContext } from 'react-cesium'
+import type { GeoJSONFeature } from '@mapbox/geojson-types'
+
+import {
+  convertCoordinatesToCartesian3,
+  convertCssColorToCesiumColor
+} from 'utils/cesium'
+
+type RectangleGeometryProps = {
+  feature: GeoJSONFeature
+}
+
+const RectangleDefaults = {
+  shadow: ShadowMode.DISABLED
+}
+
+export const RectangleGeometry = (props: RectangleGeometryProps) => {
+  const {
+    feature: {
+      id,
+      geometry: { coordinates = [[]] } = {},
+      properties,
+      properties: {
+        color = 'cyan',
+        outLine = false,
+        outLineColor = 'black',
+        opacity = 0.5
+      } = {}
+    } = {}
+  } = props
+  if (coordinates.length < 3) {
+    return null
+  }
+
+  const hierarchy = coordinates.map(([lon, lat, height]) =>
+    convertCoordinatesToCartesian3(lon, lat, height)
+  )
+  const material = convertCssColorToCesiumColor(color, opacity)
+  const outLineColorMaterial = convertCssColorToCesiumColor(outLineColor, 1)
+
+  return (
+    <ViewerContext.Consumer>
+      {viewer => (
+        <Entity
+          id={id}
+          Rectangle={{
+            ...RectangleDefaults,
+            ...properties,
+            hierarchy,
+            material: material,
+            outLine: outLine,
+            outLineColor: outLineColorMaterial
+          }}
+          viewer={viewer}
+        />
+      )}
+    </ViewerContext.Consumer>
+  )
+}
+
+RectangleGeometry.defaultProps = {
+  feature: {
+    id: '',
+    properties: {},
+    geometry: {
+      type: 'Rectangle',
+      coordinates: [[]]
+    }
+  }
+}
+
+export default React.memo<RectangleGeometryProps>(RectangleGeometry)

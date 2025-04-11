@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #16abe3;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: #16abe3;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-dasharray: 2 2;
+      }
+
+      .cls-5 {
+        filter: url(#Ellipse_622);
+      }
+    </style>
+    <filter id="Ellipse_622" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Symbol_142_36" data-name="Symbol 142 – 36" transform="translate(-1279 -1964)">
+    <g id="bubble_markup" data-name="bubble markup" transform="translate(977 244)">
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, 302, 1720)">
+        <circle id="Ellipse_622-2" data-name="Ellipse 622" class="cls-1" cx="20" cy="20" r="20" transform="translate(49 6) rotate(90)"/>
+      </g>
+    </g>
+    <g id="markup" transform="translate(122 122)">
+      <g id="Group_7928" data-name="Group 7928" transform="translate(1174.732 1861.732)">
+        <path id="Path_3251" data-name="Path 3251" class="cls-2" d="M20.388,0,9,11.44v2.1h1.943L22.536,2.1Z"/>
+        <path id="Path_3504" data-name="Path 3504" class="cls-3" d="M0,0,4,4" transform="translate(16.768 1.769)"/>
+        <path id="Path_3394" data-name="Path 3394" class="cls-4" d="M-18452.186-9987.5c4.756,0,4.379,5.806,0,5.806-5.875,0-7.1,7.808,0,7.808" transform="translate(18460.268 9986.269)"/>
+      </g>
+    </g>
+  </g>
+</svg>

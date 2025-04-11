@@ -1,0 +1,14 @@
+[
+  {
+    "id": "content-0000-0000-0000-asset-asset-1",
+    "contentId": "content-0000-0000-0000-asset",
+    "assetId": "content-0000-0000-0000-asset-1",
+    "linkedAssetId": "content-0000-0000-0000-asset-2",
+    "type": "RASTER",
+    "createdBy": "user-0000-0000-0000-asset",
+    "createdAt": "2024-01-07T00:00:00",
+    "updatedBy": "user-0000-0000-0000-asset",
+    "updatedAt": "2024-01-07T00:00:00",
+    "deletedAt": null
+  }
+]

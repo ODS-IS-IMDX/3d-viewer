@@ -1,0 +1,65 @@
+[
+  {
+    "id": "corporations-001",
+    "name": "test_corporations1",
+    "createdBy": "auth0|test1",
+    "createdAt": "2021-08-01T00:00:00",
+    "updatedBy": "auth0|test1",
+    "updatedAt": "2021-08-01T01:00:00",
+    "deletedAt": "2021-08-01T01:00:00"
+  },
+  {
+    "id": "corporations-002",
+    "name": "test_corporations2",
+    "createdBy": "auth0|test1",
+    "createdAt": "2021-08-01T02:00:00",
+    "updatedBy": "auth0|test1",
+    "updatedAt": "2021-08-01T02:00:00",
+    "deletedAt": null
+  },
+  {
+    "id": "corporations-003",
+    "name": "test_corporations3",
+    "createdBy": "auth0|test1",
+    "createdAt": "2021-08-01T03:00:00",
+    "updatedBy": "auth0|test1",
+    "updatedAt": "2021-08-01T03:00:00",
+    "deletedAt": null
+  },
+  {
+    "id": "corporation-id-0001",
+    "name": "corporation-name-base-0001",
+    "createdBy": "auth0|test1",
+    "createdAt": "2021-08-01T04:00:00",
+    "updatedBy": "auth0|test1",
+    "updatedAt": "2021-08-01T04:00:00",
+    "deletedAt": null
+  },
+  {
+    "id": "eb483d77-8e7a-44f4-abf3-f1064f65d196",
+    "name": "BBBBBBBBB",
+    "createdBy": "auth0|test1",
+    "createdAt": "2021-08-01T05:00:00",
+    "updatedBy": "auth0|test1",
+    "updatedAt": "2021-08-01T05:00:00",
+    "deletedAt": null
+  },
+  {
+    "id": "license-001-c-id",
+    "name": "license-001-c-name",
+    "createdBy": "license-pro-001-u-id",
+    "createdAt": "2023-04-26T01:00:00",
+    "updatedBy": "license-pro-001-u-id",
+    "updatedAt": "2023-04-26T01:01:00",
+    "deletedAt": null
+  },
+  {
+    "id": "license-002-c-id",
+    "name": "license-002-c-name",
+    "createdBy": "license-pro-002-u-id",
+    "createdAt": "2024-05-01T02:00:00",
+    "updatedBy": "license-pro-002-u-id",
+    "updatedAt": "2024-05-01T02:02:00",
+    "deletedAt": null
+  }
+]

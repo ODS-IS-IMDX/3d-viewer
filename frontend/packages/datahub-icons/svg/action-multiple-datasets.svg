@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="action_new_dataset" width="40" height="40" data-name="action new dataset" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#3a4248}
+        </style>
+    </defs>
+    <path id="Rectangle_15169" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 15169"/>
+    <g id="Group_21434" data-name="Group 21434" transform="translate(-637.001 -44.999)">
+        <path id="Union_236" d="M6011-1384h-15v-2h15v2zm-18-3v-13h13v2h-11v9h17v-4h2v6zm15.292-9.525l3.475-3.475H6009v-2h6v6h-2v-2.4l-3.293 3.294z" class="cls-2" data-name="Union 236" transform="translate(-5346.999 1458)"/>
+    </g>
+</svg>

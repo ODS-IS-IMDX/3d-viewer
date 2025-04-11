@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["react-app", { "absoluteRuntime": true }]
+  ],
+  "env": {
+    "test": {
+      "plugins": ["babel-plugin-rewire"]
+    }
+  }
+}

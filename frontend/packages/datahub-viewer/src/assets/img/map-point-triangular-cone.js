@@ -1,0 +1,12 @@
+// Copyright (c) 2025 NTT InfraNet
+export const mapPointTriangularCone = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<style>
+.cls-1{fill:#566adf}
+</style>
+</defs>
+<path style="fill:rgba(0, 0, 0, 0.004)" d="M0 0h100v100H0z"/>
+<path class="cls-1" d="m90 86.08-7.56-15.59c-.41-.84-1.56-1.4-2.85-1.4h-6.22L64.84 44.7H35.16l-8.53 24.39h-6.22c-1.3 0-2.45.57-2.85 1.4L10 86.08V89.48c0 1.13 1.34 2.04 3 2.04h74c1.66 0 3-.91 3-2.04v-3.39ZM52.83 10.34c-.94-2.68-4.72-2.68-5.66 0l-7.82 22.35h21.29l-7.82-22.35Z"/>
+</svg>
+`

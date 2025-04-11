@@ -1,0 +1,4 @@
+toc:
+  - name: "Components"
+    children:
+      - "PluginList"

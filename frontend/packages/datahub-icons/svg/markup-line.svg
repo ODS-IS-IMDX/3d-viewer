@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:currentColor}
+        </style>
+    </defs>
+    <g id="markup_Line" data-name="markup Line" transform="translate(-1200 -2124)">
+        <path id="Rectangle_8782" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 8782" transform="translate(1200 2124)"/>
+        <g id="Group_7937" data-name="Group 7937" transform="translate(-43 -3.001)">
+            <path id="Union_75" d="M18111 12492v-7h5.568l8.434-8.37v-5.63h7v7h-5.6l-8.4 8.4v5.6zm2-2h3v-2.95l-.021-.048H18113zm14-14h3v-3h-3z" class="cls-2" data-name="Union 75" transform="translate(-16858 -10335)"/>
+        </g>
+    </g>
+</svg>

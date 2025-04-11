@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #3a4248;
+      }
+    </style>
+  </defs>
+  <g id="add" transform="translate(-918 -2616)">
+    <rect id="Rectangle_9378" data-name="Rectangle 9378" class="cls-1" width="40" height="40" transform="translate(918 2616)"/>
+    <path id="Union_93" data-name="Union 93" class="cls-2" d="M19567.826,12485.654a7.828,7.828,0,1,1,7.828-7.828A7.837,7.837,0,0,1,19567.826,12485.654Zm0-14.5a6.67,6.67,0,1,0,6.67,6.67A6.678,6.678,0,0,0,19567.826,12471.156Z" transform="translate(-18628.998 -9840.998)"/>
+    <path id="Union_94" data-name="Union 94" class="cls-2" d="M19563.029,12477.714v-3.03H19560v-1.655h3.031V12470h1.5v3.029h3.182v1.655h-3.182v3.03Z" transform="translate(-18624.998 -9836.999)"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#3a4248}
+        </style>
+    </defs>
+    <g id="action_menu" data-name="action menu" transform="translate(-212 -5)">
+        <path id="Rectangle_5871" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 5871" transform="translate(212 5)"/>
+        <path id="Union_34" d="M19600 10602v-2h16v2zm0-5v-2h16v2zm0-5v-2h16v2z" class="cls-2" data-name="Union 34" transform="translate(-19376 -10570.999)"/>
+    </g>
+</svg>

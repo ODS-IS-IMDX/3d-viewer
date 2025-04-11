@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#3a4248}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="action_goto_previous" class="cls-2" data-name="action goto previous">
+        <path id="Rectangle_8845" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 8845"/>
+        <path id="Subtraction_9" d="M12085.88 5922.12l-8.879-8.879.048-.048-.048-.049 8.743-8.743 1.413 1.415-7.377 7.377 7.515 7.515-1.413 1.413z" class="cls-3" data-name="Subtraction 9" transform="translate(-12063 -5892.828)"/>
+    </g>
+</svg>

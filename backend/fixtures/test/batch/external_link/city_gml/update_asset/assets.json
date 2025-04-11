@@ -1,0 +1,58 @@
+[
+	{
+		"id": "uFqfdjiLg86hAMdyfamvEf",
+		"contentId": "content-0000-0000-0000-asset",
+		"ehvAssetType": "externalTileAf",
+		"ionAssetId": 112233,
+		"ionPercentComplete": 100,
+		"ionOnComplete": null,
+		"s3ObjectKey": "prd-infdx-s3-pc-internal/contents-citygml/viewer-data/content-0000-0000-0000-asset/uFqfdjiLg86hAMdyfamvEf/unit_test.zip",
+		"name": "unit_test.zip",
+		"displayName": "unit_test.zip",
+		"status": "CONVERTED",
+    "category": "designFile",
+    "formatType": "gltf",
+		"customPosition": null,
+		"customStyle": null,
+		"linkageFileName": "content-0000-0000-0000-asset_unit_test.zip",
+		"isSpace": 0,
+		"isApproval": 1,
+    "ionType": "3DTILES",
+    "ionSourceType": "3DTILES",
+		"startDateTime": null,
+		"endDateTime": null,
+    "cesiumOptions": {
+      "tilesetJsonPath": "/tileset.json"
+    },
+		"createdBy": "SYSTEM(patchAssets)",
+		"updatedBy": "SYSTEM(patchAssets)"
+	},
+	{
+		"id": "FtFqfjiaLg8hAMsdyamdv34",
+		"contentId": "content-0000-0000-0000-asset",
+		"ehvAssetType": "externalSpaceInfoBe",
+		"ionAssetId": 445566,
+		"ionPercentComplete": 100,
+		"ionOnComplete": null,
+		"s3ObjectKey": "prd-infdx-s3-pc-internal/contents-spatialid-be/viewer-data/content-0000-0000-0000-asset/uFqfdjiLg86hAMdyfamvEf/unit_test.zip",
+		"name": "unit_test.zip",
+		"displayName": "unit_test.zip",
+		"status": "CONVERTED",
+		"category": "designFile",
+		"formatType": "gltf",
+		"customPosition": null,
+		"customStyle": null,
+		"linkageFileName": "content-0000-0000-0000-asset_unit_test.zip",
+		"isSpace": 1,
+		"isApproval": 1,
+		"ionType": "3DTILES",
+		"ionSourceType": "3DTILES",
+		"startDateTime": null,
+		"endDateTime": null,
+		"cesiumOptions": {
+			"tilesetJsonPath": "/tileset.json"
+		},
+		"createdBy": "SYSTEM(patchAssets)",
+		"updatedBy": "SYSTEM(patchAssets)"
+	}
+]

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        opacity: 0.58;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #3a4248;
+      }
+
+      .cls-3 {
+        fill: #16abe3;
+        font-size: 16px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="menu-help" transform="translate(-919 -1703)">
+    <rect id="Rectangle_11295" data-name="Rectangle 11295" class="cls-1" width="40" height="40" transform="translate(919 1703)"/>
+    <g id="help" transform="translate(890 1093)">
+      <g id="Ellipse_564" data-name="Ellipse 564" class="cls-2" transform="translate(38 619)">
+        <circle class="cls-4" cx="11" cy="11" r="11"/>
+        <circle class="cls-5" cx="11" cy="11" r="10.5"/>
+      </g>
+      <text id="_" data-name="?" class="cls-3" transform="translate(45 636)"><tspan x="0" y="0">?</tspan></text>
+    </g>
+  </g>
+</svg>

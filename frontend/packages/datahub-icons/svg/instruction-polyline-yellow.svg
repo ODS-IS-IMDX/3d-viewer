@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="50.874" viewBox="0 0 44 50.874">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: #f4ba53;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        opacity: 0.998;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="instruction-polyline-yellow" transform="translate(-309 -2171)">
+    <g id="ico-instruction-polyline-yellow" transform="translate(240 -60)">
+      <g id="Symbol_113_2" data-name="Symbol 113 – 2" transform="translate(-527 557)">
+        <rect id="Rectangle_6757" data-name="Rectangle 6757" class="cls-1" width="44" height="44" rx="4" transform="translate(596 1674)"/>
+      </g>
+      <g id="Path" transform="translate(-304 69)">
+        <path id="Path-2" data-name="Path" class="cls-2" d="M14.782,19.136l.02-.013a3.64,3.64,0,0,1,.483-.3,3.838,3.838,0,0,1,1.1-.362,2.169,2.169,0,0,1,1.114.114l.09.028a3.044,3.044,0,0,0,.421.111,1.51,1.51,0,0,0,.783-.063l.011,0a2.454,2.454,0,0,1,1.113-.1,2.863,2.863,0,0,1,.927.3l.132.063a2.624,2.624,0,0,0,.735.266,1.589,1.589,0,0,0,.577-.018l.011,0a2.333,2.333,0,0,1,1.523.2c1.218.554,1.684,1.453,2.092,4.206a11.407,11.407,0,0,1,.144,3.07c-.007.068-.011.115-.023.229l-.025.233a9.743,9.743,0,0,1-.274,1.36l-14.054,2.42a18.467,18.467,0,0,1-2.083-3.185,2.117,2.117,0,0,1,.079-1.751c.054-.109.273-.5.318-.584a4.809,4.809,0,0,0,.463-2.562,13.1,13.1,0,0,0-.631-3.77l-.088-.3a11.932,11.932,0,0,1-.53-2.592,12.513,12.513,0,0,0-.336-1.873c-.634-2.656-.613-3.279.828-3.691a1.69,1.69,0,0,1,1.966.81,8.92,8.92,0,0,1,.973,2.175l.008.021a11.583,11.583,0,0,0,.711,1.723,9.922,9.922,0,0,1,.76,1.827c.106.338.377,1.315.415,1.438A1.98,1.98,0,0,0,14.782,19.136Z" transform="translate(387.162 2181.697) rotate(-5)"/>
+      </g>
+    </g>
+    <g id="Group_8803" data-name="Group 8803" transform="translate(66)">
+      <path id="Path_3554" data-name="Path 3554" class="cls-3" d="M0,14,3.8,1l12.232-3.93" transform="translate(256.5 2185.5)"/>
+      <rect id="Rectangle_11256" data-name="Rectangle 11256" class="cls-4" width="5" height="5" transform="translate(270 2180.5)"/>
+      <rect id="Rectangle_11257" data-name="Rectangle 11257" class="cls-4" width="5" height="5" transform="translate(258 2184)"/>
+      <rect id="Rectangle_11258" data-name="Rectangle 11258" class="cls-4" width="5" height="5" transform="translate(254 2197)"/>
+    </g>
+  </g>
+</svg>

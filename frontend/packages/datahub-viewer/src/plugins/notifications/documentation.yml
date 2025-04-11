@@ -1,0 +1,21 @@
+toc:
+  - name: "Actions"
+    children:
+      - "NOTIFY"
+      - "NotifyActionPayload"
+      - "NotifyAction"
+      - "notify"
+      - "notifyError"
+      - "notifyInfo"
+      - "notifySuccess"
+  - name: "Saga"
+    children:
+      - "connectWebSocket"
+      - "connectWebSocketWithCurrentSession"
+      - "disconnectWebSocket"
+      - "createWebSocketChannel"
+      - "notifySaga"
+      - "saga"
+  - name: "I18n"
+    children:
+      - "i18n"

@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "@svgr/plugin-svgo",
+    "@svgr/plugin-jsx",
+    "@svgr/plugin-prettier"
+  ],
+  "icon": false,
+  "prettierConfig": {
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  }
+}

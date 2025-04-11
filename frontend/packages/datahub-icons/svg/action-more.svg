@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:currentColor}
+        </style>
+    </defs>
+    <g id="action_more" data-name="action more" transform="translate(8860 6988)">
+        <path id="Path_2769" d="M0 0h40v40H0z" class="cls-1" data-name="Path 2769" transform="translate(-8860 -6988)"/>
+        <g id="action-ore" transform="translate(-8839.708 -6967.541)">
+            <path id="Union_60" d="M17114.709 11110.459v-2.586h2.582v2.586zm0-5.168v-2.581h2.582v2.581zm0-5.168v-2.581h2.582v2.581z" class="cls-2" data-name="Union 60" transform="translate(-17115.998 -11104)"/>
+        </g>
+    </g>
+</svg>

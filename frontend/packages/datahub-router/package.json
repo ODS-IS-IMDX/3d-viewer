@@ -1,0 +1,37 @@
+{
+  "name": "@ehv/datahub-router",
+  "version": "0.0.1",
+  "description": "",
+  "author": "@diffcunha",
+  "main": "dist/datahub-router.cjs.js",
+  "module": "dist/datahub-router.esm.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "flow": "flow check",
+    "clean": "rm -rf ./dist ./flow-typed ./node_modules ./coverage",
+    "test": "jest src --coverage --no-watch",
+    "test:watch": "jest src --coverage --notify",
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "NODE_ENV=development rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "babel-plugin-rewire": "^1.2.0",
+    "babel-preset-react-app": "^9.1.2",
+    "flow-bin": "^0.92.1",
+    "flow-typed": "^2.5.1",
+    "jest": "^24.9.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-flow-entry": "^0.3.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "peerDependencies": {
+    "redux-saga": "1.x.x",
+    "reselect": "4.x.x"
+  }
+}

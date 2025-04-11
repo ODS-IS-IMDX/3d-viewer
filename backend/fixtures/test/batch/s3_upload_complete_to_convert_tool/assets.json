@@ -1,0 +1,24 @@
+[
+  {
+    "id": "content-0000-0000-0000-asset-1",
+    "contentId": "content-0000-0000-0000-asset",
+    "ehvAssetType": "ehvSpaceInfo",
+    "s3ObjectKey": "prd-infdx-s3-pc-internal/contents-las/point-cloud-data/content-0000-0000-0000-asset_content-0000-0000-0000-asset-1_asset_test.las",
+    "name": "asset_test.las",
+    "displayName": "セグメントツール変換中",
+    "status": "S3_UPLOAD_COMPLETE_TO_CONVERT_TOOL",
+    "category": "topography",
+    "formatType": "laser",
+    "ionAssetId": 0,
+    "ionPercentComplete": 0,
+    "ionType": "3DTILES",
+    "ionSourceType": "POINT_CLOUD",
+    "isSpace": true,
+    "startDateTime": "2024-01-07T00:00:00",
+    "endDateTime": "2024-01-08T00:00:00",
+    "createdBy": "user-0000-0000-0000-asset",
+    "createdAt": "2024-01-07T00:00:00",
+    "updatedBy": "user-0000-0000-0000-asset",
+    "updatedAt": "2024-01-07T00:00:00"
+  }
+]

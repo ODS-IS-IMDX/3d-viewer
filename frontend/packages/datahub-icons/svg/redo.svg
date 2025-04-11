@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{stroke:rgba(58,66,72,.5);stroke-miterlimit:10;stroke-width:2px}.cls-3{fill:#fff}.cls-4,.cls-5{stroke:none}.cls-5{fill:rgba(58,66,72,.5)}
+        </style>
+    </defs>
+    <g id="redo" transform="translate(-1054 -1511)">
+        <path id="Rectangle_8777" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 8777" transform="translate(1054 1511)"/>
+        <g id="action-ico-undo" transform="translate(1074.282 1530.822)">
+            <g id="action-ico-undo-2" transform="translate(-8.284 -6.822)">
+                <g id="Path_3266" class="cls-3" data-name="Path 3266">
+                    <path d="M16.6 4l-7-4v2.9H4.9a5.9 5.9 0 0 0 0 11.8h4.4v-2H4.9A3.97 3.97 0 0 1 1 8.8a3.9 3.9 0 0 1 3.9-3.9h4.8v2.9z" class="cls-4"/>
+                    <path d="M9.6 0v2.9H4.9C1.6 2.9-1 5.6-1 8.8s2.6 5.9 5.9 5.9h4.4v-2H4.9C2.7 12.6 1 10.9 1 8.8c0-2.1 1.7-3.9 3.9-3.9h4.8v2.9L16.6 4l-7-4m-1-1.723l1.496.855 7 4 1.548.884-1.562.86-6.9 3.8-1.482.816V5.9H4.9C3.3 5.9 2 7.2 2 8.8c0 .749.296 1.456.832 1.993a3.173 3.173 0 0 0 2.092.907H10.3v4H4.9A6.908 6.908 0 0 1-2 8.8c0-3.805 3.095-6.9 6.9-6.9h3.7v-3.623z" class="cls-5"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

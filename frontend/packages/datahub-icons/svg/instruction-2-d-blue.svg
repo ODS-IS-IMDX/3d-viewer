@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.531" height="51.73" viewBox="0 0 45.531 51.73">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: #16abe3;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #e7f7fc;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="instruction-2d-blue" transform="translate(-368 -2233)">
+    <g id="Symbol_234_19" data-name="Symbol 234 – 19" transform="translate(-68 119)">
+      <rect id="Rectangle_6757" data-name="Rectangle 6757" class="cls-1" width="44" height="44" rx="4" transform="translate(436 2114)"/>
+      <path id="Path_3506" data-name="Path 3506" class="cls-2" d="M324.979,725.486l-6.345-7.973-3.783,4.293-3.867-16.724,17.757,6.365-6.346,2.851,6.559,7.287Z" transform="translate(291.984 1389.634) rotate(11)"/>
+    </g>
+    <g id="Group_8801" data-name="Group 8801" transform="translate(65)">
+      <g id="Group_8797" data-name="Group 8797" transform="translate(116)">
+        <path id="Path_3556" data-name="Path 3556" class="cls-3" d="M.6.932,16,0,8.809,7.188-2.74,19.507Z" transform="translate(203 2244)"/>
+        <path id="Path_3555" data-name="Path 3555" class="cls-4" d="M0,14,2.928-1.648,16.035-2.925" transform="translate(200.5 2246.5)"/>
+        <path id="Path_3557" data-name="Path 3557" class="cls-4" d="M-3.57,13.575,11.385-2.478" transform="translate(205.5 2247.5)"/>
+        <rect id="Rectangle_11264" data-name="Rectangle 11264" class="cls-5" width="5" height="5" transform="translate(214 2242.5)"/>
+        <rect id="Rectangle_11265" data-name="Rectangle 11265" class="cls-5" width="5" height="5" transform="translate(201 2242)"/>
+        <rect id="Rectangle_11266" data-name="Rectangle 11266" class="cls-5" width="5" height="5" transform="translate(198 2259)"/>
+      </g>
+    </g>
+  </g>
+</svg>

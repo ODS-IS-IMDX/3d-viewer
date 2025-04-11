@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="filetype_tif" width="40" height="40" data-name="filetype tif" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2,.cls-4{fill:#fff}.cls-3{fill:#606770}.cls-4{font-size:11px;font-family:Roboto-Bold,Roboto;font-weight:700}.cls-5,.cls-6{stroke:none}.cls-6{fill:#ecf0f3}
+        </style>
+    </defs>
+    <path id="Rectangle_14009" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 14009"/>
+    <g id="Group_20583" data-name="Group 20583" transform="translate(-264.704 -113)">
+        <g id="Path_2638" class="cls-2" data-name="Path 2638">
+            <path d="M21.204 31.5H2.5v-29h11.572l7.132 9.341V31.5z" class="cls-5" transform="translate(267.704 116)"/>
+            <path d="M5 5v24h13.704V12.687L12.835 5H5M0 0h15.309l8.395 10.996V34H0V0z" class="cls-6" transform="translate(267.704 116)"/>
+        </g>
+        <rect id="Rectangle_12606" width="24" height="13" class="cls-3" data-name="Rectangle 12606" rx="2" transform="translate(277.704 130)"/>
+        <text id="KMZ" class="cls-4" transform="translate(289.704 140)">
+            <tspan x="-11.642" y="0">KMZ</tspan>
+        </text>
+    </g>
+</svg>

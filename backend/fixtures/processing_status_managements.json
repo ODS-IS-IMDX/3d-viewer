@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dataset-replace-processing-id",
+    "processingType": "dataset_replace",
+    "resourceCategory": "site",
+    "resourceValue": "site004-0000-0000-0000-0000000000000",
+    "identityNumber": 0,
+    "status": "processing"
+  },
+  {
+    "id": "dataset-get-image-processing-id",
+    "processingType": "image_data_analyze",
+    "resourceCategory": "all",
+    "resourceValue": "all",
+    "identityNumber": 0,
+    "status": "processing"
+  },
+  {
+    "id": "get-video-processing-id",
+    "processingType": "video_data_analyze",
+    "resourceCategory": "all",
+    "resourceValue": "all",
+    "identityNumber": 0,
+    "status": "processing"
+  }
+]

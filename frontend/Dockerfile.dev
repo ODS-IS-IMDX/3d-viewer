@@ -1,0 +1,8 @@
+FROM node:20.17-alpine
+RUN apk add git vim openssh
+RUN mkdir -p /opt/workspace
+COPY . /opt/workspace
+WORKDIR /opt/workspace
+RUN npm install --unsafe-perm
+RUN npm run build:module
+RUN npm run build --unsafe-perm

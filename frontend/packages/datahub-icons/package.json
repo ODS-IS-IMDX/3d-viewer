@@ -1,0 +1,41 @@
+{
+  "name": "@ehv/datahub-icons",
+  "version": "0.0.1",
+  "description": "Datahub icon library",
+  "main": "dist/datahub-icons.cjs.js",
+  "module": "dist/datahub-icons.esm.js",
+  "scripts": {
+    "clean": "rm -rf ./dist ./node_modules ./src ./storybook-static",
+    "build:rimraf": "rimraf src && mkdir src",
+    "build:svg": "svgr -d src svg",
+    "build:rename": "renamer --find '/^/' --replace Icon src/**.js",
+    "build:index": "create-index ./src",
+    "build:rollup": "rollup -c",
+    "build": "npm run build:rimraf && npm run build:svg && npm run build:rename && npm run build:index && npm run build:rollup",
+    "storybook": "npm run build && start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^4.1.0",
+    "@svgr/plugin-jsx": "^4.1.0",
+    "@svgr/plugin-prettier": "^4.0.3",
+    "@svgr/plugin-svgo": "^4.0.3",
+    "create-index": "^2.4.0",
+    "renamer": "^1.1.1",
+    "rimraf": "^5.0.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "@storybook/addon-actions": "^5.3.21",
+    "@storybook/addon-docs": "^5.3.21",
+    "@storybook/addon-links": "^5.3.21",
+    "@storybook/addons": "^5.3.21",
+    "@storybook/react": "^5.3.21",
+    "@babel/core": "^7.8.0",
+    "react-dom": "^16.14.0"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0"
+  },
+  "dependencies": {}
+}

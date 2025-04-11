@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.002" height="10" viewBox="0 0 54.002 10">
+    <defs>
+        <style>
+            .cls-1{fill:#f6f6f6}.cls-2,.cls-3{stroke:none}.cls-3{fill:rgba(58,66,72,.5)}
+        </style>
+    </defs>
+    <g id="Union_117" class="cls-1" data-name="Union 117">
+        <path d="M19650 10598h-50v-8h2v6h23v-2h2v2h23v-6h2v8z" class="cls-2" transform="translate(-19598.998 -10589.002)"/>
+        <path d="M19652 10598.002v-8h-2.002v5.998H19627v-1.998h-2.002v1.998H19602v-5.998h-2.002v8H19652m1 1h-54.002v-10h4.002v5.998h20.998v-1.998h4.002v1.998h20.998v-5.998h4.002v10z" class="cls-3" transform="translate(-19598.998 -10589.002)"/>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+.vis-item.visible-in-map:hover {
+  background-color: darkred;
+  border-radius: 10px;
+}
+
+.vis-item.invisible-in-map:hover {
+  background-color: #97B0F8;
+  border-radius: 10px;
+}
+
+.vis-item.visible-in-map {
+  background-color: red;
+  border-color: darkred;
+  border-radius: 10px;
+}
+
+.vis-item.invisible-in-map {
+  background-color: #D5DDF6;
+  border-color: #97B0F8;
+  border-radius: 10px;
+}

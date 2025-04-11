@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#fff;opacity:.255}.cls-3,.cls-4{stroke:none}.cls-4{fill:#606770}
+        </style>
+    </defs>
+    <g id="ico_file" data-name="ico file" transform="translate(-4 -105)">
+        <path id="Rectangle_5876" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 5876" transform="translate(4 105)"/>
+        <g id="Path_2638" class="cls-2" data-name="Path 2638">
+            <path d="M11.053 15.496H.5V.5h6.719l3.834 4.847v10.149z" class="cls-3" transform="translate(18.704 117.205)"/>
+            <path d="M1 1v13.996h9.553V5.52L6.977 1H1M0 0h7.461l4.092 5.173v10.823H0V0z" class="cls-4" transform="translate(18.704 117.205)"/>
+        </g>
+    </g>
+</svg>

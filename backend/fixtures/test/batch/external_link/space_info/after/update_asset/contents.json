@@ -1,0 +1,59 @@
+[
+  {
+    "id": "content-0000-0000-0000-general",
+    "corporationId": "corporation-0000-0000-0000-general",
+    "name": "共通コンテンツ",
+    "viewStructure": "{\"test\":0}",
+    "cesiumIonTokenId": "general",
+    "cesiumIonTokenValue": "",
+    "createdBy": "user-0000-0000-0000-general",
+    "createdAt": "2024-01-01T00:00:00",
+    "updatedBy": "user-0000-0000-0000-general",
+    "updatedAt": "2024-01-01T00:00:00"
+  },
+  {
+    "id": "content-0000-0000-0000-deleted",
+    "corporationId": "corporation-0000-0000-0000-deleted",
+    "name": "削除コンテンツ",
+    "createdBy": "user-0000-0000-0000-deleted",
+    "createdAt": "2024-01-01T01:00:00",
+    "updatedBy": "user-0000-0000-0000-deleted",
+    "updatedAt": "2024-01-01T01:00:00",
+    "deletedAt": "2024-01-01T01:00:00"
+  },
+  {
+    "id": "content-0000-0000-0000-get0001",
+    "corporationId": "corporation-0000-0000-0000-general",
+    "name": "正常系",
+    "createdBy": "user-0000-0000-0000-general",
+    "updatedBy": "user-0000-0000-0000-general"
+  },
+  {
+    "id": "content-0000-0000-0000-update001",
+    "corporationId": "corporation-0000-0000-0000-general",
+    "name": "正常系",
+    "createdBy": "user-0000-0000-0000-general",
+    "updatedBy": "user-0000-0000-0000-general"
+  },
+  {
+    "id": "content-get-viewStructure1",
+    "corporationId": "corporation-0000-0000-0000-general",
+    "name": "正常系",
+    "createdBy": "user-0000-0000-0000-general",
+    "updatedBy": "user-0000-0000-0000-general"
+  },
+  {
+    "id": "content-get-viewStructure2",
+    "corporationId": "corporation-0000-0000-0000-general",
+    "name": "異常系",
+    "createdBy": "user-0000-0000-0000-general",
+    "updatedBy": "user-0000-0000-0000-general"
+  },
+  {
+    "id": "content-0000-0000-0000-asset",
+    "corporationId": "corporation-0000-0000-0000-asset",
+    "name": "アセット操作ユーザー",
+    "createdBy": "user-0000-0000-0000-asset",
+    "updatedBy": "user-0000-0000-0000-asset"
+  }
+]

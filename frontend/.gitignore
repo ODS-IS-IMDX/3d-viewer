@@ -1,0 +1,7 @@
+**/coverage
+**/build
+**/dist
+**/flow-typed
+**/node_modules
+**/storybook-static
+docker-cache

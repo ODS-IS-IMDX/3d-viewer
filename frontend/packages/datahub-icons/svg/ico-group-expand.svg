@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{stroke:#3a4248;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="ico_group_expand" data-name="ico group expand" transform="translate(-295 -269)">
+        <path id="Path_2679" d="M0 0h40v40H0z" class="cls-1" data-name="Path 2679" transform="translate(295 269)"/>
+        <path id="Path_2680" d="M8048.6 66.741l2.6 3.131 3.024-3.131" class="cls-2" data-name="Path 2680" transform="translate(-7736.102 220.76)"/>
+    </g>
+</svg>

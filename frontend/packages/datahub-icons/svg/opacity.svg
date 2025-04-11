@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#fff}.cls-2{stroke:#ecf0f3;stroke-width:2px}.cls-3{fill:#003cb1}.cls-4{clip-path:url(#clip-path)}.cls-5{opacity:.142}.cls-6{fill:#f6f6f6}.cls-7{stroke:none}.cls-8{fill:none}
+        </style>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_7765" width="17.292" height="17.292" class="cls-1" data-name="Rectangle 7765" rx="8.646" transform="rotate(-90 8.646 8.646)"/>
+        </clipPath>
+    </defs>
+    <g id="opacity" transform="translate(-801 -689)">
+        <g id="Group_7527" data-name="Group 7527" transform="translate(-174 202)">
+            <g id="Ellipse_832" class="cls-2" data-name="Ellipse 832" transform="rotate(-90 741 -234)">
+                <circle cx="10" cy="10" r="10" class="cls-7"/>
+                <circle cx="10" cy="10" r="9" class="cls-8"/>
+            </g>
+            <rect id="Rectangle_7529" width="16" height="16" class="cls-3" data-name="Rectangle 7529" rx="8" transform="rotate(-90 741 -236)"/>
+        </g>
+        <g id="Group_7526" data-name="Group 7526" transform="translate(4797.591 3322.591)">
+            <rect id="Rectangle_7761" width="17.292" height="17.292" class="cls-1" data-name="Rectangle 7761" rx="8.646" transform="rotate(-90 -3304.854 690.146)"/>
+            <g id="Mask_Group_81" class="cls-4" data-name="Mask Group 81" transform="translate(-3995 -2632)">
+                <g id="Group_7524" class="cls-5" data-name="Group 7524" transform="translate(-.028 -.373)">
+                    <path id="Rectangle_7660" d="M0 0h22.515v11.859H0z" class="cls-6" data-name="Rectangle 7660"/>
+                    <g id="Group_7525" data-name="Group 7525">
+                        <path id="Rectangle_7693" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7693"/>
+                        <path id="Rectangle_7694" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7694" transform="translate(5.629 5.896)"/>
+                        <path id="Rectangle_7695" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7695" transform="translate(16.886 5.896)"/>
+                        <path id="Rectangle_7696" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7696" transform="translate(11.257)"/>
+                    </g>
+                </g>
+                <g id="Group_7528" class="cls-5" data-name="Group 7528" transform="translate(-.028 11.588)">
+                    <path id="Rectangle_7660-2" d="M0 0h22.515v11.859H0z" class="cls-6" data-name="Rectangle 7660"/>
+                    <g id="Group_7525-2" data-name="Group 7525">
+                        <path id="Rectangle_7693-2" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7693"/>
+                        <path id="Rectangle_7694-2" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7694" transform="translate(5.629 5.896)"/>
+                        <path id="Rectangle_7695-2" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7695" transform="translate(16.886 5.896)"/>
+                        <path id="Rectangle_7696-2" d="M0 0h5.629v5.896H0z" data-name="Rectangle 7696" transform="translate(11.257)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "initial-data|assets-assets1",
+    "contentId": "initial-data|contents1",
+    "assetId": "initial-data|test-assets1",
+    "linkedAssetId": "",
+    "type": "RASTER",
+    "createdBy": "initial-data|test-user1",
+    "createdAt": "2024-01-01T11:00:00",
+    "updatedBy": "initial-data|test-user1",
+    "updatedAt": "2024-01-01T11:00:00",
+    "deletedAt": null
+  },
+  {
+    "id": "initial-data|assets-assets2",
+    "contentId": "initial-data|contents1",
+    "assetId": "initial-data|test-assets2",
+    "linkedAssetId": "",
+    "type": "RASTER",
+    "createdBy": "initial-data|test-user1",
+    "createdAt": "2024-01-01T11:00:00",
+    "updatedBy": "initial-data|test-user1",
+    "updatedAt": "2024-01-01T11:00:00",
+    "deletedAt": "2024-01-01T11:00:00"
+  },
+  {
+    "id": "initial-data|assets-assets3",
+    "contentId": "initial-data|contents1",
+    "assetId": "initial-data|test-assets3",
+    "linkedAssetId": "",
+    "type": "RASTER",
+    "createdBy": "initial-data|test-user1",
+    "createdAt": "2024-01-01T11:00:00",
+    "updatedBy": "initial-data|test-user1",
+    "updatedAt": "2024-01-01T11:00:00",
+    "deletedAt": null
+  }
+]

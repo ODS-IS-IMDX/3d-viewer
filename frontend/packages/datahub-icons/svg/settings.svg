@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none}.cls-2,.cls-3{stroke:#3a4248}.cls-2{stroke-linecap:round}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="ico_filter" data-name="ico filter" transform="translate(-394 -188)">
+        <path id="Path_2679" d="M0 0h40v40H0z" class="cls-1" data-name="Path 2679" transform="translate(394 188)"/>
+        <g id="Group_6557" data-name="Group 6557" transform="translate(196.5 -57)">
+            <path id="Path_2677" d="M0 0h7.471" class="cls-2" data-name="Path 2677" transform="translate(210.889 262.5)"/>
+            <path id="Path_2678" d="M0 0h2" class="cls-2" data-name="Path 2678" transform="translate(222.5 262.5)"/>
+            <path id="Line_993" d="M0 0h6.5" class="cls-2" data-name="Line 993" transform="translate(218 268.5)"/>
+            <path id="Line_1238" d="M0 0h2.5" class="cls-2" data-name="Line 1238" transform="translate(211 268.5)"/>
+            <g id="Ellipse_465" class="cls-3" data-name="Ellipse 465" transform="translate(218 260)">
+                <circle cx="2.5" cy="2.5" r="2.5" class="cls-4"/>
+                <circle cx="2.5" cy="2.5" r="2" class="cls-1"/>
+            </g>
+            <g id="Ellipse_466" class="cls-3" data-name="Ellipse 466" transform="translate(213 266)">
+                <circle cx="2.5" cy="2.5" r="2.5" class="cls-4"/>
+                <circle cx="2.5" cy="2.5" r="2" class="cls-1"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-6 {
+        fill: #16abe3;
+      }
+
+      .cls-2, .cls-7, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4, .cls-6 {
+        stroke: #fff;
+        stroke-linejoin: round;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        stroke-linecap: round;
+      }
+
+      .cls-7 {
+        stroke: #e7f7fc;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11251" data-name="Rectangle 11251" class="cls-1" width="44" height="44" rx="4" transform="translate(303 2233)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_3570" data-name="Path 3570" class="cls-2" d="M-21455.4-10449.086v-6.817l1.359.417,2.3-2.775v-1.3l6.646,4.564v-18.573h-26v25.6Z" transform="translate(21668 12473)"/>
+    </clipPath>
+  </defs>
+  <g id="instruction-compare-overlay" transform="translate(-189 -1990)">
+    <g id="Symbol_247_10" data-name="Symbol 247 – 10" transform="translate(-117 -243)">
+      <g id="Mask_Group_124" data-name="Mask Group 124" class="cls-3" transform="translate(3)">
+        <g id="Symbol_234_17" data-name="Symbol 234 – 17" transform="translate(-133 119)">
+          <rect id="Rectangle_6757" data-name="Rectangle 6757" class="cls-1" width="44" height="44" rx="4" transform="translate(436 2114)"/>
+          <path id="Path_3506" data-name="Path 3506" class="cls-4" d="M324.979,725.486l-6.345-7.973-3.783,4.293-3.867-16.724,17.757,6.365-6.346,2.851,6.559,7.287Z" transform="translate(291.984 1389.634) rotate(11)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Mask_Group_126" data-name="Mask Group 126" class="cls-5">
+      <g id="Group_8100" data-name="Group 8100" transform="translate(7820.715 11998)">
+        <g id="Rectangle_9293" data-name="Rectangle 9293" class="cls-6" transform="translate(-7615.105 -9991.192)">
+          <rect class="cls-8" width="14" height="14"/>
+          <rect class="cls-9" x="1" y="1" width="12" height="12"/>
+        </g>
+        <g id="Rectangle_9294" data-name="Rectangle 9294" class="cls-6" transform="translate(-7620.105 -9996.192)">
+          <rect class="cls-8" width="14" height="14"/>
+          <rect class="cls-9" x="1" y="1" width="12" height="12"/>
+        </g>
+        <path id="Path_3349" data-name="Path 3349" class="cls-7" d="M-7608.1-9990.059h-4.938c-1.008,0-1.116.76-1.116,1.244v4.623"/>
+      </g>
+    </g>
+  </g>
+</svg>

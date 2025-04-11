@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3,.cls-4{fill:#fff}.cls-4{opacity:.5}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="icon_surface_area" class="cls-2" data-name="icon surface area">
+        <path id="Rectangle_13599" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 13599"/>
+        <g id="Group_11279" data-name="Group 11279" transform="translate(3082 653)">
+            <path id="Path_7230" d="M44.082 348.3v1.415l-6 .584v-2.5h-7v7H32.9l-1.871 10h-2.947v7h7v-4.679l11.012-11.82h4.988v-7zm-11 1.5h3v3h-3zm0 20h-3v-3h3zm11-15.275L34.51 364.8h-1.443l1.872-10h3.143v-2.49l6-.585zm5-1.225h-3v-3h3z" class="cls-3" data-name="Path 7230" transform="translate(-3101.082 -992.801)"/>
+            <path id="Path_7231" d="M-3066.868-626.634l-2.268-.851 2.268-11.6h2.448l.657-2.013 7.3-.579.563 3.264z" class="cls-4" data-name="Path 7231"/>
+        </g>
+    </g>
+</svg>

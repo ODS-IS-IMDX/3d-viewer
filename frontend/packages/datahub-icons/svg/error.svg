@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ed4f5b;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="state_error" data-name="state error" transform="translate(-355 -1028)">
+    <rect id="Rectangle_13946" data-name="Rectangle 13946" class="cls-1" width="40" height="40" transform="translate(355 1028)"/>
+    <g id="Group_20457" data-name="Group 20457" transform="translate(195 691)">
+      <g id="Ellipse_1177" data-name="Ellipse 1177" class="cls-2" transform="translate(173 350)">
+        <circle class="cls-4" cx="7" cy="7" r="7"/>
+        <circle class="cls-1" cx="7" cy="7" r="7.5"/>
+      </g>
+      <path id="Path_7201" data-name="Path 7201" class="cls-3" d="M-3.052-3.878h1.344l.364-5.5H-3.416ZM-2.38-.832A1.177,1.177,0,0,0-1.134-1.985,1.179,1.179,0,0,0-2.38-3.151,1.179,1.179,0,0,0-3.626-1.985,1.177,1.177,0,0,0-2.38-.832Z" transform="translate(182.49 362)"/>
+    </g>
+  </g>
+</svg>

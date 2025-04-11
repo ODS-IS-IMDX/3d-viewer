@@ -1,0 +1,64 @@
+{
+  "name": "@ehv/datahub-components",
+  "version": "0.0.1",
+  "description": "Datahub component library",
+  "main": "dist/datahub-components.cjs.js",
+  "module": "dist/datahub-components.esm.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "flow": "flow check",
+    "clean": "rm -rf ./dist ./flow-typed ./node_modules ./coverage ./storybook-static",
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "NODE_ENV=development rollup -c -w",
+    "test": "datahub-react-scripts test --env=jest-environment-jsdom-global --collectCoverage --collectCoverageFrom=src/**/*.js  --collectCoverageFrom=!src/**/*.story.js --no-watch --runInBand",
+    "test:watch": "datahub-react-scripts test --env=jest-environment-jsdom-global --collectCoverage --collectCoverageFrom=src/**/*.js  --collectCoverageFrom=!src/**/*.story.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@ehv/datahub-icons": "file:../datahub-icons",
+    "@ehv/design-system": "file:../design-system",
+    "lodash": "^4.17.11",
+    "polished": "^3.2.0",
+    "react-circular-progressbar": "^2.0.1",
+    "react-click-outside": "^3.0.1",
+    "react-dnd": "^8.0.2",
+    "react-dnd-html5-backend-filedrop": "^1.0.0",
+    "react-select": "^2.4.2",
+    "react-tabs": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@ehv/datahub-react-scripts": "file:../../install-packages/datahub-react-scripts",
+    "@storybook/addon-actions": "^5.3.21",
+    "@storybook/addon-docs": "^5.3.21",
+    "@storybook/addon-links": "^5.3.21",
+    "@storybook/addons": "^5.3.21",
+    "@storybook/react": "^5.3.21",
+    "@wessberg/pointer-events": "^1.0.9",
+    "babel-preset-react-app": "^9.1.2",
+    "flow-bin": "^0.92.1",
+    "flow-typed": "^2.5.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-flow-entry": "^0.3.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "styled-components": "^4.1.3",
+    "styled-system": "^4.0.0",
+    "vis-timeline": "^7.7.3"
+  },
+  "peerDependencies": {
+    "@ehv/datahub-react-scripts": "*",
+    "prop-types": "15.x.x",
+    "react": "^16.14.0",
+    "babel-loader": "^8.0.5",
+    "styled-components": "4.x.x"
+  }
+}

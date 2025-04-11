@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        opacity: 0.469;
+      }
+
+      .cls-2 {
+        stroke: #16abe3;
+      }
+
+      .cls-3 {
+        fill: #16abe3;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="add_blue" data-name="add blue" transform="translate(-918 -2676)">
+    <rect id="Rectangle_11315" data-name="Rectangle 11315" class="cls-1" width="40" height="40" transform="translate(918 2676)"/>
+    <g id="Group_8848" data-name="Group 8848" transform="translate(706 2475)">
+      <g id="Symbol_261_10" data-name="Symbol 261 – 10">
+        <g id="Group_6566" data-name="Group 6566" transform="translate(21576 9154)">
+          <g id="Rectangle_5982" data-name="Rectangle 5982" class="cls-2" transform="translate(-21353 -8942)">
+            <rect class="cls-4" width="18" height="18" rx="9"/>
+            <rect class="cls-5" x="0.5" y="0.5" width="17" height="17" rx="8.5"/>
+          </g>
+        </g>
+        <path id="Union_79" data-name="Union 79" class="cls-3" d="M11370.5,5904v-3.5h-3.5v-1h3.5V5896h1v3.5h3.5v1h-3.5v3.5Z" transform="translate(-11139 -5679.001)"/>
+      </g>
+    </g>
+  </g>
+</svg>

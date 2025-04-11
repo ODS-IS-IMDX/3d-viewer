@@ -1,0 +1,2 @@
+INSERT IGNORE INTO corporations (id, name, location, createdBy, updatedBy) VALUES ('9999999999999-01', '管理者', '{\"lat\":35.8617,\"lng\":139.6454,\"zoom\":17,\"bounds\":{\"top\":35.888679610911744,\"left\":139.61210965314862,\"right\":139.67869034685137,\"bottom\":35.83472038908827}}', '<system>', '<system>');
+INSERT IGNORE INTO contents (id, corporationId, name, createdBy, updatedBy) VALUES ('9999999999999-01', '9999999999999-01', 'Admin', '<system>', '<system>');

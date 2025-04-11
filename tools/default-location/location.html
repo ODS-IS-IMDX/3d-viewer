@@ -1,0 +1,47 @@
+<html lang="ja">
+
+<head>
+    <title>Default Location</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="ja">
+    <meta name="google" content="notranslate">
+    <script src="./convert.js"></script>
+</head>
+
+<body>
+    <div style="width: 100%; text-align: center; margin-top: 20px;">
+        緯度:<input id="lat" type="number" step="any" style="font-size: 1.5em; width: 600px;" oninput="onInput()" />
+    </div>
+    <div style="width: 100%; text-align: center; margin-top: 10px;">
+        経度:<input id="lng" type="number" step="any" style="font-size: 1.5em; width: 600px;" oninput="onInput()" />
+    </div>
+    <div style="width: 100%; text-align: center; margin-top: 10px;">
+        json:<textarea id="json" style="font-size: 1.5em; width: 600px; height: 100px"></textarea>
+    </div>
+    <div style="width: 100%; text-align: center; margin-top: 10px;">
+        text:<textarea id="text" style="font-size: 1.5em; width: 600px; height: 100px"></textarea>
+    </div>
+
+    <script type="text/javascript" language="javascript">
+        function onInput() {
+            let lat = document.getElementById('lat');
+            let lng = document.getElementById('lng');
+            let json = document.getElementById('json');
+            let text = document.getElementById('text');
+            if (lat.value && lng.value) {
+                try {
+                    let val = convert(Number(lat.value), Number(lng.value));
+                    let str = JSON.stringify(val).replace(/\s+/g, "");
+                    json.value = str;
+                    text.value = str.replace(/"/g, `\\"`);
+                } catch (e) {
+                    console.error(e);
+                    json.value = "";
+                    text.value = "";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

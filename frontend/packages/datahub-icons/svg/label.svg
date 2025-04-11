@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#fff}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="analytic_label_cyan" class="cls-2" data-name="analytic label cyan">
+        <path id="Rectangle_5875" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 5875"/>
+        <path id="Union_170" d="M6008.738-963.026v-13.692H6002V-979h16v2.281h-6.738v13.692z" class="cls-3" data-name="Union 170" transform="translate(-5990.002 991)"/>
+    </g>
+</svg>

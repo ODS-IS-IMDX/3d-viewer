@@ -1,0 +1,21 @@
+<svg version="1.1" viewBox="0 0 27.241 25.241" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1,.cls-2,.cls-4{fill:none}.cls-1,.cls-4{stroke:currentColor}.cls-3{clip-path:url(#clip-path)}.cls-4{stroke-width:2px}.cls-5{clip-path:url(#clip-path-2)}</style>
+  <clipPath id="clip-path">
+   <path class="cls-2" d="m0 0h40v40h-40z"/>
+  </clipPath>
+  <clipPath id="clip-path-2">
+   <path class="cls-1" d="m546.62 1107.8 2.893 4.505-0.366 2.179-6.049 1.1 4.342 7.422 3.4-2.429 1.868 0.919 0.466 5.906 7.34-0.691-0.679-5.215 1.77-0.919 5.592 1.949 0.774-7.435-4.459-0.6v-2.179l3.045-4.505-6.721-4.985-0.973 5.554-1.671 0.509-2.326-0.509-2.158-4.628z" data-name="Path 7788"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-543,-1102)" data-name="Group 20878">
+  <rect class="cls-4" transform="translate(554,1103)" width="5.241" height="5.241" rx="2" data-name="Rectangle 14401"/>
+  <rect class="cls-4" transform="translate(544,1110)" width="5.241" height="5.241" rx="2" data-name="Rectangle 14402"/>
+  <rect class="cls-4" transform="translate(548,1121)" width="5.241" height="5.241" rx="2" data-name="Rectangle 14403"/>
+  <rect class="cls-4" transform="translate(564,1110)" width="5.241" height="5.241" rx="2" data-name="Rectangle 14404"/>
+  <rect class="cls-4" transform="translate(560,1121)" width="5.241" height="5.241" rx="2" data-name="Rectangle 14405"/>
+  <g class="cls-5" clip-path="url(#clip-path-2)" data-name="Mask Group 172">
+   <path class="cls-4" transform="translate(773.9 9254.3)" d="m-217.28-8148.7-10.191 7.254 4.2 10.954h12.124l3.945-11.364z" data-name="Path 7785"/>
+  </g>
+ </g>
+</svg>

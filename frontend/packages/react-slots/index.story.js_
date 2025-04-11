@@ -1,0 +1,204 @@
+import React from 'react'
+
+import { storiesOf } from '@storybook/react'
+import { withPropsTable } from 'storybook-addon-react-docgen'
+
+import { Provider, Slot, Fill } from '.'
+
+storiesOf('Slot & Fill', module)
+  .addDecorator(story => (
+    <Provider>
+      {story()}
+    </Provider>
+  ))
+  .addDecorator(withPropsTable)
+  .add('simple', () => (
+    <div>
+      <div>
+        <Slot name='foo' />
+      </div>
+      <div>
+        <Fill slot='foo'>
+          {() => <p>Hello</p>}
+        </Fill>
+      </div>
+    </div>
+  ))
+  .add('passing props from Slot', () => (
+    <div>
+      <div>
+        <Slot name='foo' label='world' />
+      </div>
+      <div>
+        <Fill slot='foo'>
+          {({ label }) => (
+            <p>Hello {label}</p>
+          )}
+        </Fill>
+      </div>
+    </div>
+  ))
+  .add('multiple slots', () => (
+    <div>
+      <div>
+        <Slot name='foo' label='1st' />
+        <Slot name='foo' label='2nd' />
+      </div>
+      <div>
+        <Fill slot='foo'>
+          {({ label }) => (
+            <p>Hello {label}</p>
+          )}
+        </Fill>
+      </div>
+    </div>
+  ))
+  .add('multiple fills', () => (
+    <div>
+      <div>
+        <Slot name='foo' label='world' />
+      </div>
+      <div>
+        <Fill slot='foo'>
+          {({ label }) => <p>Hello {label}!</p>}
+        </Fill>
+        <Fill slot='foo'>
+          {({ label }) => <p>Hello again {label}!</p>}
+        </Fill>
+      </div>
+    </div>
+  ))
+  .add('multiple fills and slots', () => (
+    <div>
+      <div>
+        <Slot name='foo' label='world' />
+        <Slot name='foo' label='crazy world' />
+      </div>
+      <div>
+        <Fill slot='foo'>
+          {({ label }) => <p>Hello {label}!</p>}
+        </Fill>
+        <Fill slot='foo'>
+          {({ label }) => <p>Hello again {label}!</p>}
+        </Fill>
+      </div>
+    </div>
+  ))
+  .add('decorating slots', () => (
+    <div>
+      <div>
+        <Slot name='foo' label='world'>
+          {fills => (
+            <div>
+              {fills.map((fill, index) => (
+                <div style={{ border: '1px solid red' }} key={index}>
+                  {fill.render({ sublabel: 'foo' })}
+                </div>
+              ))}
+            </div>
+          )}
+        </Slot>
+      </div>
+      <div>
+        <Fill slot='foo'>
+          {({ label, sublabel }) => <p>Hello {label} {sublabel}</p>}
+        </Fill>
+        <Fill slot='foo'>
+          {({ label, sublabel }) => <p>Hello hello {label} {sublabel}</p>}
+        </Fill>
+      </div>
+    </div>
+  ))
+  .add('keybinds', () => {
+    const keyboardJS = {
+      bind (keys, fn) {
+        console.log('keyboardJS.bind', keys)
+      },
+      unbind (keys, fn) {
+        console.log('keyboardJS.unbind', keys)
+      }
+    }
+
+    class KeyboardJSBind extends React.PureComponent {
+      componentDidMount () {
+        keyboardJS.bind(this.props.keys, this.props.onAction)
+      }
+
+      componentDidUpdate (prevProps) {
+        keyboardJS.unbind(prevProps.keys, prevProps.onAction)
+        keyboardJS.bind(this.props.keys, this.props.onAction)
+      }
+
+      componentWillUnmount () {
+        keyboardJS.unbind(this.props.keys, this.props.onAction)
+      }
+
+      render () {
+        return null
+      }
+    }
+
+    const Keybind = props => (
+      <Fill {...props} slot='keybindings' />
+    )
+
+    return (
+      <div>
+        <Slot name='keybindings'>
+          {fills => fills.map((fill, index) => (
+            <KeyboardJSBind {...fill.props} key={index} />
+          ))}
+        </Slot>
+        <Keybind keys='Ctrl+s' onAction={() => console.log('ctrl+s')} />
+      </div>
+    )
+  })
+//   .add('onFills', () => {
+//     class Foo extends React.PureComponent {
+//       state = {
+//         count: 0
+//       }
+// 
+//       componentDidMount () {
+//         setInterval(() => {
+//           this.setState({
+//             count: this.state.count + 1
+//           })
+//         }, 1000)
+//       }
+// 
+//       render () {
+//         return Array.from({ length: this.state.count }, (item, index) => (
+//           <Fill slot='foo' label={`Hi ${index}`} key={index} />
+//         ))
+//       }
+//     }
+// 
+//     class Bar extends React.PureComponent {
+//       state = {
+//         items: []
+//       }
+// 
+//       onFills = items => {
+//         this.setState({ items })
+//       }
+// 
+//       render () {
+//         return (
+//           <div>
+//             <Slot name='foo' onFills={this.onFills} />
+//             {this.state.items.reverse().map((item, index) => (
+//               <p key={index}>{item.label}</p>
+//             ))}
+//           </div>
+//         )
+//       }
+//     }
+// 
+//     return (
+//       <div>
+//         <Bar />
+//         <Foo />
+//       </div>
+//     )
+//   })

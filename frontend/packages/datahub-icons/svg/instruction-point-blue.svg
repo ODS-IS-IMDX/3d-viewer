@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.531" height="51.73" viewBox="0 0 45.531 51.73">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #16abe3;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="instruction-point-blue" transform="translate(-246 -2233)">
+    <g id="ico-instruction-point-blue" transform="translate(-190 119)">
+      <rect id="Rectangle_6757" data-name="Rectangle 6757" class="cls-1" width="44" height="44" rx="4" transform="translate(436 2114)"/>
+      <path id="Path_3506" data-name="Path 3506" class="cls-2" d="M324.979,725.486l-6.345-7.973-3.783,4.293-3.867-16.724,17.757,6.365-6.346,2.851,6.559,7.287Z" transform="translate(291.984 1389.634) rotate(11)"/>
+    </g>
+    <g id="Path_3273" data-name="Path 3273" transform="translate(262 2239)">
+      <path id="Path_3273-2" data-name="Path 3273" class="cls-3" d="M7,0a7,7,0,0,1,7,7c0,3.866-7,13.58-7,13.58S0,10.866,0,7A7,7,0,0,1,7,0Z"/>
+      <path id="Path_3274" data-name="Path 3274" class="cls-4" d="M7,2A5.006,5.006,0,0,0,2,7c0,.436.231,2.241,3.2,7.187.625,1.041,1.254,2.024,1.8,2.85.545-.827,1.174-1.81,1.8-2.85C11.769,9.241,12,7.436,12,7A5.006,5.006,0,0,0,7,2M7,0a7,7,0,0,1,7,7c0,3.866-7,13.58-7,13.58S0,10.866,0,7A7,7,0,0,1,7,0Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "corporation-0000-0000-0000-general",
+    "name": "共通企業",
+    "location": "{\"lat\":35.0,\"lng\":135.0,\"zoom\":17,\"bounds\":{\"left\":134.9,\"bottom\":34.9,\"right\":135.1,\"top\":35.1}}",
+    "createdBy": "user-0000-0000-0000-general",
+    "createdAt": "2024-01-01T00:00:00",
+    "updatedBy": "user-0000-0000-0000-general",
+    "updatedAt": "2024-01-01T00:00:00"
+  },
+  {
+    "id": "corporation-0000-0000-0000-asset",
+    "name": "アセット操作企業",
+    "location": "{\"lat\":35.0,\"lng\":135.0,\"zoom\":17,\"bounds\":{\"left\":134.9,\"bottom\":34.9,\"right\":135.1,\"top\":35.1}}",
+    "createdBy": "user-0000-0000-0000-asset",
+    "createdAt": "2024-01-01T00:00:00",
+    "updatedBy": "user-0000-0000-0000-asset",
+    "updatedAt": "2024-01-01T00:00:00"
+  },
+  {
+    "id": "corporation-0000-0000-0000-deleted",
+    "name": "削除企業",
+    "location": "{\"lat\":35.0,\"lng\":135.0,\"zoom\":17,\"bounds\":{\"left\":134.9,\"bottom\":34.9,\"right\":135.1,\"top\":35.1}}",
+    "createdBy": "user-0000-0000-0000-deleted",
+    "createdAt": "2024-01-01T01:00:00",
+    "updatedBy": "user-0000-0000-0000-deleted",
+    "updatedAt": "2024-01-01T01:00:00",
+    "deletedAt": "2024-01-01T01:00:00"
+  }
+]

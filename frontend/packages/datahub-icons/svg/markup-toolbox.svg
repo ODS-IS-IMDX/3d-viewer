@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="63" viewBox="0 0 112 63">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:none}.cls-3{fill:#d6d7da}.cls-4{fill:#3a4248}.cls-5{filter:url(#Rectangle_7062)}
+        </style>
+        <filter id="Rectangle_7062" width="112" height="63" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="markup_toolbox" data-name="markup toolbox" transform="translate(-663 -1684)">
+        <g class="cls-5" transform="translate(663 1684)">
+            <rect id="Rectangle_7062-2" width="94" height="45" class="cls-1" data-name="Rectangle 7062" rx="22.5" transform="translate(9 6)"/>
+        </g>
+        <g id="markup_Line" data-name="markup Line" transform="translate(-518 -432)">
+            <path id="Rectangle_8782" d="M0 0h40v40H0z" class="cls-2" data-name="Rectangle 8782" transform="translate(1200 2124)"/>
+            <g id="Group_7937" data-name="Group 7937" transform="translate(-43 -3.001)">
+                <path id="Union_75" d="M18111 12492v-7h5.568l8.434-8.37v-5.63h7v7h-5.6l-8.4 8.4v5.6zm2-2h3v-2.95l-.021-.048H18113zm14-14h3v-3h-3z" class="cls-3" data-name="Union 75" transform="translate(-16858 -10335)"/>
+            </g>
+        </g>
+        <g id="markup_Point" data-name="markup Point" transform="translate(-519 -432)">
+            <path id="Rectangle_8783" d="M0 0h40v40H0z" class="cls-2" data-name="Rectangle 8783" transform="translate(1243 2124)"/>
+            <g id="Path_3273" data-name="Path 3273" transform="translate(1256 2134)">
+                <path id="Path_3273-2" d="M7 0a7 7 0 0 1 7 7c0 3.866-7 13.58-7 13.58S0 10.866 0 7a7 7 0 0 1 7-7z" class="cls-2" data-name="Path 3273"/>
+                <path id="Path_3274" d="M7 2a5.006 5.006 0 0 0-5 5c0 .436.231 2.241 3.2 7.187a78.695 78.695 0 0 0 1.8 2.85 83.493 83.493 0 0 0 1.8-2.85C11.769 9.241 12 7.436 12 7a5.006 5.006 0 0 0-5-5m0-2a7 7 0 0 1 7 7c0 3.866-7 13.58-7 13.58S0 10.866 0 7a7 7 0 0 1 7-7z" class="cls-4" data-name="Path 3274"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "9000000000001-01",
+    "corporationId": "9000000000001-01",
+    "name": "Test Corp.",
+    "createdBy": "1f8b13f1-c19f-f938-d234-cc9ba70a89c8",
+    "updatedBy": "1f8b13f1-c19f-f938-d234-cc9ba70a89c8"
+  },
+  {
+    "id": "initial-data|contents1",
+    "corporationId": "initial-data|corporation1",
+    "name": "Test Contents",
+    "createdBy": "initial-data|test-user1",
+    "createdAt": "2019-02-06T09:52:43",
+    "updatedBy": "initial-data|test-user1",
+    "updatedAt": "2019-02-06T09:52:43",
+    "deletedAt": null
+  },
+  {
+    "id": "initial-data|contents2",
+    "corporationId": "initial-data|corporation2",
+    "name": "Test Contents2",
+    "createdBy": "initial-data|test-user2",
+    "createdAt": "2019-02-06T09:52:43",
+    "updatedBy": "initial-data|test-user2",
+    "updatedAt": "2019-02-06T09:52:43",
+    "deletedAt": null
+  }
+]

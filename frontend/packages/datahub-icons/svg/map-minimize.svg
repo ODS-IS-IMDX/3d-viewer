@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#fff}.cls-3,.cls-4{stroke:none}.cls-4{fill:rgba(58,66,72,.5)}
+        </style>
+    </defs>
+    <g id="map_minimize" data-name="map minimize" transform="translate(-315 -723)">
+        <path id="Rectangle_5886" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 5886" transform="translate(315 723)"/>
+        <g id="Union_46" class="cls-2" data-name="Union 46">
+            <path d="M19613 10610v-7h7v2h-5v5zm-8.008 0v-5H19600v-2h7v7zm8.008-13v-7h2v5h5v2zm-13 0v-2h5v-5h2v7z" class="cls-3" transform="translate(-19275.004 -9856.996)"/>
+            <path d="M19614.998 10610.003V10605h5.002v-2.004H19613.004v7.007h1.994m-7.998 0v-7.007h-6.996v2.004h4.992v5.003h2.004m13-13v-2.004h-5.002v-5.003h-1.994v7.007h6.996m-13-.005V10589.996h-2.004v5.003h-4.992v1.999h6.996m8.998 14.005H19612.004v-9.007H19621v4.004h-5.002v5.003zm-7.998 0h-4.004V10606h-4.992v-4.004h8.996v9.007zm13-13h-8.996v-9.007H19615.998v5.003h5.002v4.004zm-13-.005h-8.996v-3.999h4.992v-5.003h4.004v9.002z" class="cls-4" transform="translate(-19275.004 -9856.996)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg version="1.1" viewBox="0 0 16 15.974" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:currentColor}</style>
+  <clipPath id="clip-path">
+   <path class="cls-1" d="m0 0h40v40h-40z"/>
+  </clipPath>
+ </defs>
+ <path class="cls-3" d="m6.738 15.974v-13.692h-6.738v-2.282h16v2.281h-6.738v13.692z" data-name="Union 170"/>
+</svg>

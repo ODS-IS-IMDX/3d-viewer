@@ -1,0 +1,3001 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Early Harvest Viewer",
+    "description": "Early Harvest Viewer API",
+    "version": "1.0.0"
+  },
+  "servers": [{ "url": "http://localhost:3000/" }],
+  "paths": {
+    "*": {
+      "options": {
+        "tags": [],
+        "summary": "",
+        "description": "",
+        "operationId": "",
+        "responses": {},
+        "security": [],
+        "deprecated": false
+      }
+    },
+    "/users/profile": {
+      "get": {
+        "tags": ["users"],
+        "summary": "",
+        "description": "Return the user profile",
+        "operationId": "getUserProfile",
+        "responses": {
+          "200": {
+            "description": "Returns the profile information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "Returns the profile information",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "statusCode": {
+                      "description": "HTTP status code of the response",
+                      "type": "integer",
+                      "examples": [200]
+                    },
+                    "data": {
+                      "type": "object",
+                      "description": "The data of the response",
+                      "properties": {
+                        "user": {
+                          "type": "object",
+                          "description": "The data of the user",
+                          "properties": {},
+                          "examples": [
+                            {
+                              "id": "00405d25-0c08-4288-92e1-438a525360c4",
+                              "licenseType": "PRO",
+                              "licenseOptions": ["DAM_REPORT", "ELMO_CAMERA"],
+                              "userNotifications": [
+                                {
+                                  "type": "RELEASE_NOTE",
+                                  "checkedAt": "2023-04-01T00:00:00.000Z"
+                                }
+                              ],
+                              "language": "ja",
+                              "name": "ランドログ 太郎",
+                              "phone_number": null,
+                              "phone_number_2": null,
+                              "phonetic_family_name": "",
+                              "phonetic_given_name": "",
+                              "picture": "",
+                              "type": "managed",
+                              "address": {
+                                "address_1": "",
+                                "address_2": "",
+                                "city": "",
+                                "country": "",
+                                "state": "",
+                                "zip_code": ""
+                              },
+                              "corporation": {
+                                "id": "eb483d77-8e7a-44f4-abf3-f1064f65d196",
+                                "name": "AAAAAAAAA"
+                              },
+                              "email": "test.taro@xxx.co.jp",
+                              "emails": [],
+                              "family_name": "ランドログ",
+                              "given_name": " 太郎",
+                              "groups": [
+                                {
+                                  "corporation_id": null,
+                                  "id": "eb483d77-8e7a-44f4-abf3-f1064f65d196",
+                                  "name": "株式会社ランドログ",
+                                  "type": "Corporation"
+                                },
+                                {
+                                  "corporation_id": "eb483d77-8e7a-44f4-abf3-f1064f65d196",
+                                  "id": "89afd57e-5445-4e93-9eb6-aca747f13515",
+                                  "name": "LLViewerTestグループ",
+                                  "type": "Group"
+                                }
+                              ],
+                              "site": {
+                                "id": "eb483d77-8e7a-44f4-abf3-f1064f65d196",
+                                "name": "現場A"
+                              }
+                            }
+                          ],
+                          "additionalProperties": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Forbidden",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false
+      }
+    },
+    "/sites/{siteId}": {
+      "parameters": [
+        {
+          "name": "siteId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "siteId",
+            "description": "Site identifier",
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 36,
+            "examples": ["db1de9ed-8368-45e5-ac9f-1506b44c318e"]
+          }
+        }
+      ],
+      "get": {
+        "tags": ["sites"],
+        "summary": "",
+        "description": "Retrieve a specific site",
+        "operationId": "getSite",
+        "responses": {
+          "200": {
+            "description": "returns the site with the specified id",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "returns the site with the specified id",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "statusCode": {
+                      "description": "HTTP status code of the response",
+                      "type": "integer",
+                      "examples": [200]
+                    },
+                    "data": {
+                      "type": "object",
+                      "description": "The data of the response",
+                      "properties": {
+                        "site": {
+                          "type": "object",
+                          "description": "The data of the site",
+                          "properties": {
+                            "id": {
+                              "$id": "siteId",
+                              "description": "Site identifier",
+                              "type": "string",
+                              "minLength": 8,
+                              "maxLength": 36,
+                              "examples": [
+                                "db1de9ed-8368-45e5-ac9f-1506b44c318e"
+                              ]
+                            },
+                            "name": {
+                              "description": "The site name",
+                              "type": "string",
+                              "maxLength": 255,
+                              "examples": ["現場サンプル001"]
+                            },
+                            "cesiumIonToken": {
+                              "description": "CesiumIon access tokens by site",
+                              "type": "string",
+                              "examples": [
+                                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDQ0MzE4Zi0yMDM5LTQ1NTAtYjlmMS0yNDJhZGI4MGYzNzciLCJpZCI6MjkwNTIsImlhdCI6MTcxNTc0OTE2NX0.dRYCiG6r-bwoNmfgTjMrBPmjV4rdStuKwU0ZmgBsw84"
+                              ]
+                            },
+                            "location": {
+                              "description": "The location of the site",
+                              "type": "object",
+                              "example": {
+                                "lat": 35.603903966505904,
+                                "lng": 140.08325438234084,
+                                "zoom": 17,
+                                "bounds": {
+                                  "bottom": 35.58198941047166,
+                                  "left": 140.0563049238173,
+                                  "right": 140.1102038408644,
+                                  "top": 35.62581252246515
+                                }
+                              },
+                              "additionalProperties": true
+                            },
+                            "attribute": {
+                              "description": "The attribute of the site",
+                              "type": "object",
+                              "additionalProperties": true
+                            },
+                            "viewStructure": {
+                              "description": "Drawing data structure",
+                              "type": "object",
+                              "additionalProperties": true,
+                              "examples": [
+                                {
+                                  "elements": [
+                                    {
+                                      "name": "test1",
+                                      "displayName": "test1",
+                                      "isDirectory": true,
+                                      "expanded": true,
+                                      "nodeID": 1,
+                                      "children": [
+                                        {
+                                          "name": "アセット",
+                                          "displayName": "アセット",
+                                          "isDirectory": true,
+                                          "expanded": true,
+                                          "nodeID": 2,
+                                          "children": [
+                                            {
+                                              "name": "asset-01.las",
+                                              "displayName": "asset-01.las",
+                                              "status": "CONVERTING",
+                                              "referenceId": "asset-01",
+                                              "ehvAssetType": "ehvTile",
+                                              "formatType": "laser",
+                                              "createdAt": "2024-01-02T15:04:05Z",
+                                              "nodeID": 3
+                                            },
+                                            {
+                                              "name": "asset-02.kml",
+                                              "displayName": "asset-02.kml",
+                                              "status": "CONVERTED",
+                                              "referenceId": "asset-02",
+                                              "ehvAssetType": "ehvSpaceInfo",
+                                              "formatType": "kml",
+                                              "createdAt": "2024-01-02T15:04:05Z",
+                                              "nodeID": 4
+                                            },
+                                            {
+                                              "name": "asset-03.las",
+                                              "displayName": "asset-03.las",
+                                              "status": "CONVERTED",
+                                              "referenceId": "asset-03",
+                                              "ehvAssetType": "externalTileBe",
+                                              "formatType": "laser",
+                                              "createdAt": "2024-01-02T15:04:05Z",
+                                              "nodeID": 5
+                                            },
+                                            {
+                                              "name": "asset-04.las",
+                                              "displayName": "asset-04.las",
+                                              "status": "CONVERTED",
+                                              "referenceId": "asset-04",
+                                              "ehvAssetType": "externalTileAf",
+                                              "formatType": "laser",
+                                              "createdAt": "2024-01-02T15:04:05Z",
+                                              "nodeID": 6
+                                            },
+                                            {
+                                              "name": "asset-05.kml",
+                                              "displayName": "asset-05.kml",
+                                              "status": "CONVERTED",
+                                              "referenceId": "asset-05",
+                                              "ehvAssetType": "externalSpaceInfoBe",
+                                              "formatType": "kml",
+                                              "createdAt": "2024-01-02T15:04:05Z",
+                                              "nodeID": 7
+                                            },
+                                            {
+                                              "name": "asset-06.kml",
+                                              "displayName": "asset-06.kml",
+                                              "status": "CONVERTED",
+                                              "referenceId": "asset-06",
+                                              "ehvAssetType": "externalSpaceInfoAf",
+                                              "formatType": "kml",
+                                              "createdAt": "2024-01-02T15:04:05Z",
+                                              "nodeID": 8
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "test2",
+                                      "displayName": "test2",
+                                      "isDirectory": true,
+                                      "expanded": true,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "externalServices": {
+                              "description": "List of external service integration settings",
+                              "type": "array",
+                              "items": {
+                                "description": "External service integration settings",
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                  "type": {
+                                    "description": "External service type",
+                                    "type": "string"
+                                  },
+                                  "status": {
+                                    "description": "External Service Link Status",
+                                    "type": "string",
+                                    "enum": ["ENABLED", "DISABLED"]
+                                  }
+                                },
+                                "required": ["type", "status"]
+                              },
+                              "examples": [
+                                [
+                                  {
+                                    "type": "EXAMPLE_SERVICE",
+                                    "status": "ENABLED"
+                                  }
+                                ]
+                              ]
+                            },
+                            "createdAt": {
+                              "$id": "createdAt",
+                              "description": "The creation date",
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "updatedAt": {
+                              "$id": "updatedAt",
+                              "description": "The last modify date",
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "deletedAt": {
+                              "$id": "deletedAt",
+                              "description": "The delete date, if null the entity is not deleted",
+                              "type": "string",
+                              "nullable": true
+                            }
+                          },
+                          "required": [],
+                          "additionalProperties": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Permission required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Permission required",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false,
+        "parameters": [
+          {
+            "name": "showdeleted",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "description": "If set to true and the user is authorized, returns the element even if was deleted"
+            }
+          }
+        ]
+      },
+      "put": {
+        "tags": ["sites"],
+        "summary": "",
+        "description": "Updates a site.",
+        "operationId": "putSite",
+        "responses": {
+          "200": {
+            "description": "returns the site with the specified id",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "returns the site with the specified id",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "statusCode": {
+                      "description": "HTTP status code of the response",
+                      "type": "integer",
+                      "examples": [200]
+                    },
+                    "data": {
+                      "type": "object",
+                      "description": "The data of the response",
+                      "properties": {
+                        "site": {
+                          "type": "object",
+                          "description": "The data of the site",
+                          "properties": {
+                            "id": {
+                              "$id": "siteId",
+                              "description": "Site identifier",
+                              "type": "string",
+                              "minLength": 8,
+                              "maxLength": 36,
+                              "examples": [
+                                "db1de9ed-8368-45e5-ac9f-1506b44c318e"
+                              ]
+                            },
+                            "name": {
+                              "description": "The site name",
+                              "type": "string",
+                              "maxLength": 255,
+                              "examples": ["現場サンプル001"]
+                            },
+                            "attribute": {
+                              "description": "The attribute of the site",
+                              "type": "object",
+                              "additionalProperties": true
+                            },
+                            "externalServices": {
+                              "description": "List of external service integration settings",
+                              "type": "array",
+                              "items": {
+                                "description": "External service integration settings",
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                  "type": {
+                                    "description": "External service type",
+                                    "type": "string"
+                                  },
+                                  "status": {
+                                    "description": "External Service Link Status",
+                                    "type": "string",
+                                    "enum": ["ENABLED", "DISABLED"]
+                                  }
+                                },
+                                "required": ["type", "status"]
+                              },
+                              "examples": [
+                                [
+                                  {
+                                    "type": "EXAMPLE_SERVICE",
+                                    "status": "ENABLED"
+                                  }
+                                ]
+                              ]
+                            },
+                            "createdAt": {
+                              "$id": "createdAt",
+                              "description": "The creation date",
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "updatedAt": {
+                              "$id": "updatedAt",
+                              "description": "The last modify date",
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "deletedAt": {
+                              "$id": "deletedAt",
+                              "description": "The delete date, if null the entity is not deleted",
+                              "type": "string",
+                              "nullable": true
+                            }
+                          },
+                          "additionalProperties": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Permission required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Permission required",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false,
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "properties": {}, "type": "object" }
+            }
+          }
+        }
+      }
+    },
+    "/sites/{siteId}/multiple-data": {
+      "parameters": [
+        {
+          "name": "siteId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "siteId",
+            "description": "Site identifier",
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 36,
+            "examples": ["db1de9ed-8368-45e5-ac9f-1506b44c318e"]
+          }
+        }
+      ],
+      "delete": {
+        "tags": ["sites"],
+        "summary": "",
+        "description": "Multiple site data deleted",
+        "operationId": "deleteSiteMultipleData",
+        "responses": {
+          "204": {
+            "description": "Successfully deleted the site multiple data"
+          },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Permission required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Permission required",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false,
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {},
+                "type": "object",
+                "required": ["targetList"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/{siteId}/assets": {
+      "parameters": [
+        {
+          "name": "siteId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "siteId",
+            "description": "Site identifier",
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 36,
+            "examples": ["db1de9ed-8368-45e5-ac9f-1506b44c318e"]
+          }
+        }
+      ],
+      "get": {
+        "tags": ["assets"],
+        "summary": "",
+        "description": "Get the asset list",
+        "operationId": "getSiteAssets",
+        "responses": {
+          "200": {
+            "description": "Returns the assets",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "Returns the assets",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "HTTP status code of the response",
+                      "examples": [200]
+                    },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "current": {
+                          "description": "References this page. Useful for refreshing the current listing",
+                          "type": "string"
+                        },
+                        "next": {
+                          "description": "References the next page in the sequence. Undefined if there is none",
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "prev": {
+                          "description": "References the previous page in the sequence. Undefined if there is none",
+                          "type": "string",
+                          "nullable": true
+                        },
+                        "totalItems": {
+                          "description": "The total number of items across all pages",
+                          "type": "integer",
+                          "minimum": 0,
+                          "examples": [1]
+                        },
+                        "limit": {
+                          "description": "The max number of items within a single page",
+                          "type": "integer",
+                          "minimum": 1,
+                          "examples": [20]
+                        },
+                        "offset": {
+                          "description": "The numeric offset of the first item in the page",
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "totalPages": {
+                          "description": "The total number of pages",
+                          "type": "integer",
+                          "minimum": 0,
+                          "examples": [1]
+                        },
+                        "page": {
+                          "description": "The current page number",
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "isAssetRegistable": {
+                          "description": "Can I register as an asset?",
+                          "type": "boolean"
+                        },
+                        "items": {
+                          "type": "array",
+                          "description": "The items",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "$id": "assetId",
+                                "description": "Asset identifier",
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 36
+                              },
+                              "contentId": {
+                                "$id": "contentId",
+                                "description": "Content identifier",
+                                "type": "string",
+                                "minLength": 8,
+                                "maxLength": 36,
+                                "examples": [
+                                  "db1de9ed-8368-45e5-ac9f-1506b44c318e"
+                                ]
+                              },
+                              "ionAssetId": {
+                                "$id": "ionAssetId",
+                                "description": "Cesium-ion Asset ID",
+                                "type": "number",
+                                "minLength": 1
+                              },
+                              "name": {
+                                "description": "Asset File Name",
+                                "type": "string",
+                                "maxLength": 255
+                              },
+                              "displayName": {
+                                "description": "Asset Display Name",
+                                "type": "string",
+                                "maxLength": 255
+                              },
+                              "isDisplay": {
+                                "description": "Indicate/non-expression",
+                                "type": "boolean",
+                                "default": false
+                              },
+                              "status": {
+                                "description": "The status of the asset",
+                                "type": "string"
+                              },
+                              "ionPercentComplete": {
+                                "description": "CesiumIon Asset Conversion Progress Rate 0-100",
+                                "type": "integer"
+                              },
+                              "formatType": {
+                                "description": "Asset format type",
+                                "type": "string"
+                              },
+                              "customPosition": {
+                                "description": "Location Information",
+                                "type": "object",
+                                "additionalProperties": true,
+                                "nullable": true
+                              },
+                              "category": {
+                                "description": "Asset Classification",
+                                "type": "string"
+                              },
+                              "ionAssetType": {
+                                "description": "CesiumION Asset Type",
+                                "type": "string",
+                                "enum": [
+                                  "3DTILES",
+                                  "GLTF",
+                                  "IMAGERY",
+                                  "TERRAIN",
+                                  "KML",
+                                  "CZML",
+                                  "GEOJSON"
+                                ]
+                              },
+                              "ehvAssetType": {
+                                "description": "EHV Asset Registration Type",
+                                "type": "string",
+                                "enum": [
+                                  "ehvTile",
+                                  "ehvSpaceInfo",
+                                  "externalTileAf",
+                                  "externalSpaceInfoBe",
+                                  "externalSpaceInfoAf"
+                                ]
+                              },
+                              "startDateTime": {
+                                "description": "Asset start date and time",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "endDateTime": {
+                                "description": "End date and time of the asset",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "createdBy": {
+                                "description": "Subscriber",
+                                "type": "object",
+                                "required": ["firstName", "lastName"],
+                                "properties": {
+                                  "firstName": {
+                                    "type": "string",
+                                    "description": ""
+                                  },
+                                  "lastName": {
+                                    "type": "string",
+                                    "description": ""
+                                  },
+                                  "userId": {
+                                    "type": "string",
+                                    "description": ""
+                                  },
+                                  "email": {
+                                    "type": "string",
+                                    "description": ""
+                                  }
+                                }
+                              },
+                              "createdAt": {
+                                "$id": "createdAt",
+                                "description": "The creation date",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "updatedAt": {
+                                "$id": "updatedAt",
+                                "description": "The last modify date",
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "deletedAt": {
+                                "$id": "deletedAt",
+                                "description": "The delete date, if null the entity is not deleted",
+                                "type": "string",
+                                "nullable": true
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "contentId",
+                              "ionAssetId",
+                              "name",
+                              "displayName",
+                              "isDisplay",
+                              "status",
+                              "ionPercentComplete",
+                              "formatType",
+                              "customPosition",
+                              "category",
+                              "ionAssetType",
+                              "ehvAssetType",
+                              "startDateTime",
+                              "endDateTime",
+                              "createdBy",
+                              "createdAt",
+                              "updatedAt",
+                              "deletedAt"
+                            ]
+                          }
+                        }
+                      },
+                      "examples": [
+                        {
+                          "current": "string",
+                          "next": null,
+                          "prev": null,
+                          "totalItems": 1,
+                          "limit": 20,
+                          "offset": 0,
+                          "totalPages": 1,
+                          "page": 0,
+                          "isAssetRegistable": true,
+                          "items": [
+                            {
+                              "id": "aVicDEVSgyrb8ZLmTMdsBi",
+                              "contentId": "initial-data|contents1",
+                              "ionAssetId": 2937769,
+                              "name": "test_asset.las",
+                              "displayName": "Assets uploaded from EHV",
+                              "isDisplay": true,
+                              "status": "CONVERTED",
+                              "ionPercentComplete": 100,
+                              "formatType": "laser",
+                              "category": "topography",
+                              "ionAssetType": "3DTILES",
+                              "ehvAssetType": "ehvTile",
+                              "startDateTime": "2024-01-01T00:00:00.000Z",
+                              "endDateTime": "2024-12-31T23:59:59.000Z",
+                              "customPosition": {
+                                "transform": [
+                                  -0.7596848374009469,
+                                  -0.6502914329922367,
+                                  0,
+                                  0,
+                                  0.3617207131705919,
+                                  -0.422570138906991,
+                                  0.8310190150456755,
+                                  0,
+                                  -0.5404045461378495,
+                                  0.6313125453220692,
+                                  0.5562440081767311,
+                                  0,
+                                  -3450364.623906323,
+                                  4030792.2806627946,
+                                  3527721.0540310917,
+                                  1
+                                ]
+                              },
+                              "createdBy": {
+                                "firstName": "Name 1",
+                                "lastName": "Last 1",
+                                "userId": "initial-data|test-user1",
+                                "email": "test-user1@dummy.local"
+                              },
+                              "createdAt": "2024-12-20T01:35:19.000Z",
+                              "updatedAt": "2024-12-20T01:36:37.000Z",
+                              "deletedAt": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Permission required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Permission required",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false,
+        "parameters": [
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "schema": {
+              "description": "Given a collection of results, the numeric offset (inclusive) of the first item to return",
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "",
+            "required": false,
+            "schema": {
+              "description": "The total number of entries to include in a given response",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10000
+            }
+          }
+        ]
+      },
+      "post": {
+        "tags": ["assets"],
+        "summary": "",
+        "description": "Create a new asset record.",
+        "operationId": "postSiteAsset",
+        "responses": {
+          "201": {
+            "description": "The asset created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "The asset created",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "statusCode": {
+                      "description": "HTTP status code of the response",
+                      "type": "integer",
+                      "examples": [200]
+                    },
+                    "data": {
+                      "type": "object",
+                      "description": "The data of the response",
+                      "properties": {
+                        "asset": {
+                          "type": "object",
+                          "description": "The data of the asset",
+                          "properties": {
+                            "id": {
+                              "$id": "assetId",
+                              "description": "Asset identifier",
+                              "type": "string",
+                              "minLength": 1,
+                              "maxLength": 36
+                            },
+                            "name": {
+                              "description": "Asset File Name",
+                              "type": "string",
+                              "maxLength": 255
+                            },
+                            "displayName": {
+                              "description": "Asset Display Name",
+                              "type": "string",
+                              "maxLength": 255
+                            },
+                            "status": {
+                              "description": "The status of the asset",
+                              "type": "string"
+                            },
+                            "customPosition": {
+                              "description": "Location Information",
+                              "type": "object",
+                              "additionalProperties": true,
+                              "nullable": true
+                            },
+                            "startDateTime": {
+                              "description": "Asset start date and time",
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "endDateTime": {
+                              "description": "End date and time of the asset",
+                              "type": "string",
+                              "format": "date-time"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "displayName",
+                            "status",
+                            "customPosition",
+                            "startDateTime",
+                            "endDateTime"
+                          ],
+                          "examples": [
+                            {
+                              "id": "sample_asset_01",
+                              "name": "sample_asset_01.las",
+                              "displayName": "Sample Asset 01",
+                              "status": "CONVERTED",
+                              "category": "topography",
+                              "formatType": "laser",
+                              "customPosition": null,
+                              "startDateTime": "2021-09-02T06:04:35.053Z",
+                              "endDateTime": "2021-09-03T06:04:35.053Z"
+                            }
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Permission required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Permission required",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Conflict error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Conflict error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false,
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "name": {
+                    "description": "Asset File Name",
+                    "type": "string",
+                    "maxLength": 255
+                  },
+                  "displayName": {
+                    "description": "Asset Display Name",
+                    "type": "string",
+                    "maxLength": 255
+                  },
+                  "customPosition": {
+                    "description": "Location Information",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "nullable": true
+                  },
+                  "startDateTime": {
+                    "description": "Asset start date and time",
+                    "type": "string",
+                    "format": "date-time",
+                    "nullable": true
+                  },
+                  "endDateTime": {
+                    "description": "End date and time of the asset",
+                    "type": "string",
+                    "format": "date-time",
+                    "nullable": true
+                  },
+                  "cesiumOptions": {
+                    "description": "json for asset tiling parameters",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "srid": {
+                        "description": "Coordinate System (SRID)",
+                        "type": "integer",
+                        "minimum": 1024,
+                        "maximum": 32766
+                      },
+                      "verticalSrid": {
+                        "description": "Elevation Reference (SRID)",
+                        "type": "integer",
+                        "minimum": 1024,
+                        "maximum": 32766
+                      },
+                      "flipXY": {
+                        "description": "XY Reverse",
+                        "type": "boolean"
+                      },
+                      "tilesetJsonPath": {
+                        "description": "Relative path of tileset.json",
+                        "type": "string"
+                      },
+                      "isTerrain": {
+                        "description": "Whether or not the data will be used as terrain target data?",
+                        "type": "boolean"
+                      },
+                      "baseTerrainId": {
+                        "description": "CesiumIonAssetId that is the source of terrain merge",
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "invertXY": {
+                        "description": "XY inversion (used when converting FME)",
+                        "type": "integer"
+                      },
+                      "flipTexture": {
+                        "description": "Texture inversion (used when converting FME)",
+                        "type": "integer"
+                      },
+                      "addTerrain": {
+                        "description": "Whether or not to add data to the terrain target?",
+                        "type": "boolean"
+                      },
+                      "cellSpacing": {
+                        "description": "Cell interval (used during FME conversion)",
+                        "type": "number",
+                        "exclusiveMinimum": 0,
+                        "examples": [1]
+                      },
+                      "position": {
+                        "type": "array",
+                        "description": "Default position for 3d model ([Longitude, Latitude, Ellipsoid Height])",
+                        "items": { "type": "number" },
+                        "examples": [[135.0123, 40.4567, 100.89]]
+                      }
+                    }
+                  },
+                  "isSpace": {
+                    "description": "Whether to make spatial ID?",
+                    "type": "boolean"
+                  }
+                },
+                "type": "object",
+                "required": ["name", "displayName", "isSpace"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/{siteId}/assets/{assetId}/upload": {
+      "parameters": [
+        {
+          "name": "siteId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "siteId",
+            "description": "Site identifier",
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 36,
+            "examples": ["db1de9ed-8368-45e5-ac9f-1506b44c318e"]
+          }
+        },
+        {
+          "name": "assetId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "assetId",
+            "description": "Asset identifier",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 36
+          }
+        }
+      ],
+      "put": {
+        "tags": ["assets"],
+        "summary": "",
+        "description": "Upload assets to AWS-S3",
+        "operationId": "putSiteAssetUpload",
+        "responses": {
+          "204": { "description": "Successfully upload the asset" },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "No upload permissions",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "No upload permissions",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Asset not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Asset not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false
+      }
+    },
+    "/sites/{siteId}/assets/{assetId}": {
+      "parameters": [
+        {
+          "name": "siteId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "siteId",
+            "description": "Site identifier",
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 36,
+            "examples": ["db1de9ed-8368-45e5-ac9f-1506b44c318e"]
+          }
+        },
+        {
+          "name": "assetId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "assetId",
+            "description": "Asset identifier",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 36
+          }
+        }
+      ],
+      "delete": {
+        "tags": ["assets"],
+        "summary": "",
+        "description": "Delete assets (LAS)",
+        "operationId": "deleteSiteAsset",
+        "responses": {
+          "204": { "description": "Successfully deleted the asset" },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Forbidden",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false
+      },
+      "put": {
+        "tags": ["assets"],
+        "summary": "",
+        "description": "Update asset data",
+        "operationId": "putSiteAsset",
+        "responses": {
+          "200": {
+            "description": "The asset updated",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "The asset updated",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "statusCode": {
+                      "description": "HTTP status code of the response",
+                      "type": "integer",
+                      "examples": [200]
+                    },
+                    "data": {
+                      "type": "object",
+                      "description": "The data of the response",
+                      "properties": {
+                        "asset": {
+                          "type": "object",
+                          "description": "The data of the asset",
+                          "properties": {
+                            "displayName": {
+                              "description": "Asset Display Name",
+                              "type": "string",
+                              "maxLength": 255
+                            },
+                            "formatType": {
+                              "description": "Asset format type",
+                              "type": "string"
+                            },
+                            "customPosition": {
+                              "description": "Location Information",
+                              "type": "object",
+                              "additionalProperties": true,
+                              "nullable": true
+                            },
+                            "startDateTime": {
+                              "description": "Asset start date and time",
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "endDateTime": {
+                              "description": "End date and time of the asset",
+                              "type": "string",
+                              "format": "date-time"
+                            }
+                          },
+                          "required": [
+                            "displayName",
+                            "formatType",
+                            "startDateTime",
+                            "endDateTime"
+                          ],
+                          "examples": [
+                            {
+                              "displayName": "Name 01",
+                              "formatType": "laser",
+                              "customPosition": {
+                                "transform": [
+                                  -0.7596848374009469,
+                                  -0.6502914329922367,
+                                  0,
+                                  0,
+                                  0.3617207131705919,
+                                  -0.422570138906991,
+                                  0.8310190150456755,
+                                  0,
+                                  -0.5404045461378495,
+                                  0.6313125453220692,
+                                  0.5562440081767311,
+                                  0,
+                                  -3450364.623906323,
+                                  4030792.2806627946,
+                                  3527721.0540310917,
+                                  1
+                                ]
+                              },
+                              "customStyle": null,
+                              "startDateTime": "2021-09-02T06:04:35.053Z",
+                              "endDateTime": "2021-09-03T06:04:35.053Z"
+                            }
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Bad request error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Permission required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Permission required",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false,
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "properties": {
+                  "displayName": {
+                    "description": "Asset Display Name",
+                    "type": "string",
+                    "maxLength": 255
+                  },
+                  "startDateTime": {
+                    "description": "Asset start date and time",
+                    "type": "string",
+                    "format": "date-time",
+                    "nullable": true
+                  },
+                  "endDateTime": {
+                    "description": "End date and time of the asset",
+                    "type": "string",
+                    "format": "date-time",
+                    "nullable": true
+                  },
+                  "customPosition": {
+                    "description": "Location Information",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "nullable": true
+                  },
+                  "customStyle": {
+                    "description": "User-Customized Asset Display Style on Map",
+                    "type": "object",
+                    "additionalProperties": true,
+                    "nullable": true
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sites/{siteId}/assets/{assetId}/download": {
+      "parameters": [
+        {
+          "name": "siteId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "siteId",
+            "description": "Site identifier",
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 36,
+            "examples": ["db1de9ed-8368-45e5-ac9f-1506b44c318e"]
+          }
+        },
+        {
+          "name": "assetId",
+          "in": "path",
+          "description": "",
+          "required": true,
+          "schema": {
+            "$id": "assetId",
+            "description": "Asset identifier",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 36
+          }
+        }
+      ],
+      "get": {
+        "tags": ["assets"],
+        "summary": "",
+        "description": "Download pre-converted asset data stored in LL storage",
+        "operationId": "getSiteAssetDownload",
+        "responses": {
+          "200": {
+            "description": "Default name when saving a file in a browser",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "Default name when saving a file in a browser",
+                  "type": "string",
+                  "format": "binary",
+                  "headers": {
+                    "type": "object",
+                    "properties": {
+                      "Content-Disposition": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Unauthorized error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "No download permissions",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "No download permissions",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Asset not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Asset not found",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    },
+                    "messageCode": {
+                      "type": "string",
+                      "description": "The error message code"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false
+      }
+    },
+    "/assets": {
+      "patch": {
+        "tags": ["assets"],
+        "summary": "",
+        "description": "Check the status of the asset information and proceed with the process",
+        "operationId": "patchAssets",
+        "responses": {
+          "204": { "description": "Check asset status and proceed" },
+          "500": {
+            "description": "Generic error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Generic error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Service Unavailable error",
+                  "properties": {
+                    "statusCode": {
+                      "type": "integer",
+                      "description": "The error code"
+                    },
+                    "error": {
+                      "type": "string",
+                      "description": "The error short message"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "The error full message"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false
+      }
+    },
+    "/status": {
+      "get": {
+        "tags": [],
+        "summary": "",
+        "description": "",
+        "operationId": "",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": { "status": { "type": "string" } }
+                }
+              }
+            }
+          }
+        },
+        "security": [],
+        "deprecated": false
+      }
+    }
+  },
+  "components": { "schemas": {} },
+  "security": [],
+  "tags": [],
+  "externalDocs": {
+    "url": "https://swagger.io",
+    "description": "Find more info here"
+  }
+}

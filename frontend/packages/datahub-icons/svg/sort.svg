@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#3a4248}
+        </style>
+    </defs>
+    <g id="sorting" transform="translate(-775 -122)">
+        <path id="Rectangle_7346" d="M0 0h40v40H0z" class="cls-1" data-name="Rectangle 7346" transform="translate(775 122)"/>
+        <path id="Union_64" d="M10665.762 5753.326v-8.519l-1.858 1.858-1.036-1.039 3.629-3.625 3.628 3.625-1.033 1.034-1.861-1.858v8.521zm-8.762-3.626l1.033-1.033 1.861 1.858V5742h1.465v8.521l1.858-1.858 1.036 1.039-3.628 3.626z" class="cls-2" data-name="Union 64" transform="translate(-9869 -5605.999)"/>
+    </g>
+</svg>

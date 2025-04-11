@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-4{fill:none}.cls-1{stroke:currentColor}.cls-3{clip-path:url(#clip-path)}.cls-4{stroke:currentColor;stroke-width:1.6px}.cls-5{clip-path:url(#clip-path-2)}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h40v40H0z" class="cls-2"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Path_7813" d="M26.7 14.806l-1.812-1.668L20 17.1l-3.646-4.588-3.689 2.439 4.075 4.119L11.478 22l.5 2.511 5.37-.952.847 4.564 3.5 2.285.139-5.047 1.42-1.8 5.41.952 1.736-2.925-7.146-1.848z" class="cls-1" data-name="Path 7813" transform="translate(533.362 1091.652)"/>
+        </clipPath>
+    </defs>
+    <g id="analytic_polygon" class="cls-3" data-name="analytic polygon">
+        <path id="Rectangle_5875" d="M0 0h40v40H0z" class="cls-2" data-name="Rectangle 5875"/>
+        <g id="Group_20878" data-name="Group 20878" transform="translate(-533.362 -1091.652)">
+            <rect id="Rectangle_14401" width="5" height="5" class="cls-4" data-name="Rectangle 14401" rx="2" transform="translate(550.814 1103)"/>
+            <rect id="Rectangle_14402" width="5" height="5" class="cls-4" data-name="Rectangle 14402" rx="2" transform="translate(544 1107.719)"/>
+            <rect id="Rectangle_14403" width="5" height="5" class="cls-4" data-name="Rectangle 14403" rx="2" transform="translate(546.726 1115.135)"/>
+            <rect id="Rectangle_14404" width="5" height="5" class="cls-4" data-name="Rectangle 14404" rx="2" transform="translate(557.628 1107.719)"/>
+            <rect id="Rectangle_14405" width="5" height="5" class="cls-4" data-name="Rectangle 14405" rx="2" transform="translate(554.903 1115.135)"/>
+            <g id="Mask_Group_177" class="cls-5" data-name="Mask Group 177">
+                <path id="Path_7785" d="M-220.48-8148.723l-6.988 4.917 2.883 7.425h8.313l2.7-7.7z" class="cls-4" data-name="Path 7785" transform="translate(773.897 9254.344)"/>
+            </g>
+        </g>
+    </g>
+</svg>
