@@ -61,7 +61,7 @@
 | ------------------ | ---------- | ----------- |
 | Node.js            | v20.17.0   | MIT License |
 | Fastify            | 4.28.1     | MIT License |
-| MySQL              | 2.18.1     | MIT License |
+| mysql              | 2.18.1     | MIT License |
 | jwks-rsa           | 1.12.3     | MIT License |
 | jwt-decode         | 4.0.0      | MIT License |
 | @aws-sdk/client-s3 | 3.651.1    | Apache License, Version 2.0  |
